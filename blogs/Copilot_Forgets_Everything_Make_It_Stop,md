@@ -1,0 +1,234 @@
+---
+title: "Copilot Forgets Everything: Make It Stop"
+tags:
+  - github-copilot
+  - ai
+  - productivity
+  - developer-tools
+created: 2026-06-14
+status: published
+publications:
+  - platform: coderlegion
+    url: https://vishwajeetkondi.vercel.app/blog/copilot-forgets-everything-make-it-stop
+    published_at: 2026-06-14
+  - platform: devto
+    url: https://dev.to/vishwajeet/copilot-forgets-everything-make-it-stop
+    published_at: 2026-06-14
+---
+
+[⬅️ Back to Blogs](README.md)
+
+![Copilot-Forgets-Everything-Make-It-Stop](uploads/b71da2b1349ac5a2178eb0eac6c5113d/Copilot-Forgets-Everything-Make-It-Stop.png){width=900 height=507}
+
+You open a new Copilot chat and explain everything again.
+
+Your stack. Folder structure. That “no default exports” rule.
+
+Copilot writes code, but forgets context.
+
+This isn’t a bug though. LLMs are stateless, every chat starts fresh.
+
+The good part? You can fix it.
+
+---
+
+## The Problem Has a Name
+
+You’re dealing with three problems:
+
+- **The Blank Slate**: Every session starts from zero.
+
+- **Correction Amnesia**: You fix a mistake. Next session, same mistake.
+
+- **Standards Drift**: Your team has patterns. Copilot ignores them. Code becomes inconsistent.
+
+Each problem has a different fix. Let's go through them one by one.
+
+---
+
+## The Instructions File (Your Copilot Brief)
+
+Create this file:
+
+```
+your-project/
+└── .github/
+    └── copilot-instructions.md
+```
+
+Copilot reads it at the start of every chat. No setup.
+
+Think of it as your team’s “how we work” doc.
+
+Example:
+
+```markdown
+## Stack
+- React 18, TypeScript (strict), Tailwind CSS
+- Node.js + Express + Prisma + PostgreSQL
+- Testing: Vitest + React Testing Library
+- Package manager: pnpm only
+
+## Rules
+- Named exports only — no default exports
+- No `any` types
+- Every API route uses `authenticate`
+- Handle nulls explicitly — no optional chaining on Prisma results
+- Conventional Commits: feat(scope): message
+```
+
+Now everyone gets the same baseline.
+
+---
+
+## Scoped Rules (Right Rules, Right Files)
+
+One file works… until it grows.
+
+Frontend, backend, and tests follow different rules. A single file mixes context.
+
+Use scoped files:
+
+```
+.github/
+├── copilot-instructions.md
+└── instructions/
+    ├── frontend.instructions.md
+    ├── backend.instructions.md
+    └── testing.instructions.md
+```
+
+Each file defines where it applies:
+
+```markdown
+---
+applyTo: "src/components/**/*.tsx"
+---
+
+## Component Rules
+- Functional components only
+- Props interface named `[ComponentName]Props`
+- Use `cn()` for conditional classes
+- No inline styles
+```
+
+Now Copilot gets relevant rules only.
+
+---
+
+## The Memory Tool (Fix Repeated Mistakes)
+
+Copilot has a memory tool in VS Code (preview, enabled by default).
+
+When you correct it, make it persistent:
+
+```
+Remember: never use optional chaining on Prisma query results. 
+Always handle null with an explicit if-check.
+```
+
+It stores this and applies it in future sessions.
+
+Memory types:
+
+**User memory** (all projects)
+
+```
+Remember I prefer async/await over .then()
+```
+
+**Repository memory** (this project)
+
+```
+Remember we use App Router (March 2026)
+Remember UserAvatar breaks in Server Components
+```
+
+**Session memory** (current chat only)
+
+**Key habit:** When you fix a repeated mistake, tell it to remember.
+
+Check memory with `Chat: Show Memory Files`.
+
+*Note: Memory tool is in preview, enable via `github.copilot.chat.tools.memory.enabled`.* 
+
+---
+
+## Prompt Files (Stop Repeating Yourself)
+
+If you repeat prompts, create a prompt file:
+
+```
+.github/prompts/code-review.prompt.md
+```
+
+Use it with `/code-review`.
+
+Example:
+
+```markdown
+---
+name: "code-review"
+description: "Review staged changes"
+mode: "ask"
+---
+
+Review staged changes.
+
+Flag:
+- Must Fix — bugs, auth, unsafe types
+- Should Fix — standards, missing tests
+- Suggestion — improvements
+
+Reference [copilot-instructions.md](../copilot-instructions.md).
+```
+
+Now your team shares the same workflow.
+
+Other useful prompts:
+
+* `/new-component`
+* `/new-migration`
+* `/write-tests`
+
+---
+
+## The Full Picture
+
+```
+.github/
+├── copilot-instructions.md
+├── instructions/
+│   ├── frontend.instructions.md
+│   ├── backend.instructions.md
+│   └── testing.instructions.md
+└── prompts/
+    ├── code-review.prompt.md
+    ├── new-component.prompt.md
+    └── new-migration.prompt.md
+```
+
+Plus memory running in the background.
+
+| Problem           | Fix                       |
+| ----------------- | ------------------------- |
+| Blank slate       | `copilot-instructions.md` |
+| Wrong rules       | Scoped files              |
+| Repeated mistakes | Memory tool               |
+| Repeated prompts  | Prompt files              |
+
+---
+
+## Just Start With One Thing
+
+You don’t need everything today.
+
+Start with `copilot-instructions.md`. Add your stack and a few rules. Commit it. See the difference.
+
+Then:
+
+* Add scoped files when needed
+* Save repeated fixes to memory
+* Create prompt files when repetition appears
+
+The model won’t change. But your context can improve every week.
