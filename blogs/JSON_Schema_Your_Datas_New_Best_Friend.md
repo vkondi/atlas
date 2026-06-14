@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/JSON_Schema_Your_Datas_New_Best_Friend.md)
+[⬅️ Back to Blogs](README.md)
 
 ![part1](uploads/bc6dc6a3eef6b0af5de3d97368c7b89f/part1.png)
 
@@ -231,3 +231,7 @@ _Ready to never debug mysterious data issues at 2 AM again? Let's make it happen
 - **Part 1: Understanding the Basics** ← You are here
 - [Part 2: Implementation with AJV](./JSON_Schema_with_AJV_Implementation_Deep_Dive.md)
 - [Part 3: Real-World Applications & HAL](./JSON_Schema_in_the_Wild_Real_World_Applications__HAL.md)
+
+---
+
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-3949AB?style=flat-square&logo=json-schema&logoColor=white) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/JSON_Schema_Your_Datas_New_Best_Friend.md)

@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/GitHub_Repo_Security_Your_Easy_Go_To_Checklist.md)
+[⬅️ Back to Blogs](README.md)
 
 ![github-logo-png-s8wb6yxlatsyp8s1](uploads/82905c71d8fb1cc591d780f78bb0d0cc/github-logo-png-s8wb6yxlatsyp8s1.png)
 
@@ -133,3 +133,7 @@ Go to: `Settings → Features`
 ## Wrapping Up
 
 That’s the rundown! These settings and tips should help you secure your GitHub repo while making it a welcoming spot for collaboration. I’m no expert, but this setup has saved me headaches on my own projects. Got questions about any of these settings or a GitHub hack you want to share? Drop them in the comments below—I’d love to hear your thoughts and help with any setup snags!
+
+---
+
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white) ![Security](https://img.shields.io/badge/Security-🔒-red?style=flat-square) ![DevOps](https://img.shields.io/badge/DevOps-🛠️-blueviolet?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/GitHub_Repo_Security_Your_Easy_Go_To_Checklist.md)

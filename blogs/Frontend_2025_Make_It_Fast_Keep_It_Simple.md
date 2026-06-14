@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Frontend_2025_Make_It_Fast_Keep_It_Simple.md)
+[⬅️ Back to Blogs](README.md)
 
 ![FE_2025](uploads/93820339276c31e5c53637c42b94a0d3/FE_2025.png)
 
@@ -85,3 +85,7 @@ Frontend in 2025 is about making good calls:
 The future is less about the tool and more about the decision. We add value by choosing well, not by coding the fastest.
 
 Got questions, ideas, or something I missed? Drop a comment. If you want a deeper dive on any section (React 19 Actions, WebGPU basics, zero‑runtime CSS, or RUM setup), tell me and I’ll write a follow‑up. Your feedback helps make this clearer for everyone.
+
+---
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Frontend_2025_Make_It_Fast_Keep_It_Simple.md)

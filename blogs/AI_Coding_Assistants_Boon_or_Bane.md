@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/AI_Coding_Assistants_Boon_or_Bane.md)
+[⬅️ Back to Blogs](README.md)
 
 ![AI_CODING_HESDER](uploads/e78b0eb57110ce0ee449b4da38a982a4/AI_CODING_HESDER.png){width=768 height=432}
 
@@ -79,3 +79,7 @@ The key is balance. Use AI to speed up your work, but don’t let it replace you
 ## 💬 What do you think?
 
 Are we heading towards a “logic-light” generation of coders, or are we just evolving into more creative builders?
+
+---
+
+![AI](https://img.shields.io/badge/AI-🤖-blue?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/AI_Coding_Assistants_Boon_or_Bane.md)

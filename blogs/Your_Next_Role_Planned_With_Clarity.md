@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Your_Next_Role_Planned_With_Clarity.md)
+[⬅️ Back to Blogs](README.md)
 
 ![next-role_header](uploads/54508f20ddd20b42e762a3be8442889c/next-role_header.png){width=627 height=173}
 
@@ -86,3 +86,7 @@ Seriously, you can be done in 3 minutes.
 ## For The Curious Types
 
 Built with Next.js + TypeScript. AI-powered by Gemini or Deepseek. Open source. [Check out the code.](https://github.com/vkondi/next-role)
+
+---
+
+![Career](https://img.shields.io/badge/Career-📈-blue?style=flat-square) ![Resume](https://img.shields.io/badge/Resume-📄-green?style=flat-square) ![NextRole](https://img.shields.io/badge/NextRole-🚀-blueviolet?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Your_Next_Role_Planned_With_Clarity.md)

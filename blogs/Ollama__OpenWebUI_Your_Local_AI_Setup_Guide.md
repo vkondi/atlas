@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Ollama__OpenWebUI_Your_Local_AI_Setup_Guide.md)
+[⬅️ Back to Blogs](README.md)
 
 _Want to run AI models on your computer without paying for cloud services? Meet Ollama - your new best friend._
 
@@ -194,3 +194,7 @@ _Happy coding, AI enthusiasts! 🚀_
 ---
 
 _P.S. If this helped you, consider sharing it with your fellow developers. Local AI is the future, and the future is now._
+
+---
+
+![Local AI](https://img.shields.io/badge/Local_AI-💻-teal?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Ollama__OpenWebUI_Your_Local_AI_Setup_Guide.md)

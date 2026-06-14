@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/GitHub_Secure_Guide_Checklist.md)
+[⬅️ Back to Blogs](README.md)
 
 # GitHub Secure Guide Checklist
 
@@ -100,3 +100,7 @@ Go to:
 - ☑ Enable Issues (if needed).
 - ☑ Enable Discussions (optional).
   ☑ Enable Projects (optional).
+
+---
+
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white) ![Security](https://img.shields.io/badge/Security-🔒-red?style=flat-square) ![DevOps](https://img.shields.io/badge/DevOps-🛠️-blueviolet?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/GitHub_Secure_Guide_Checklist.md)

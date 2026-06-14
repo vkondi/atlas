@@ -1,6 +1,6 @@
 [⬅️ Back](./../README.md)
 
-# Blogs ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/README.md)
+# Blogs
 
 Welcome to my personal collection of articles, tutorials, and notes covering various aspects of modern web development, toolings, AI coding assistants, security, and career progression.
 
@@ -76,3 +76,7 @@ Real-world experiences on shipping software and structured planning for career g
 
 - [I Published My First npm CLI Tool](./I_Published_My_First_npm_CLI_Tool.md)
 - [Your Next Role Planned With Clarity](./Your_Next_Role_Planned_With_Clarity.md)
+
+---
+
+![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/README.md)

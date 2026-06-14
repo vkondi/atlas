@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/I_Published_My_First_npm_CLI_Tool.md)
+[⬅️ Back to Blogs](README.md)
 
 ![my_first_npm_cli_tool](uploads/bab46387f3a939f7c78e3e5a1afb7412/my_first_npm_cli_tool.png){width=900 height=406}
 
@@ -160,3 +160,7 @@ npx create-scaffold-kit my-app
 Check out the [GitHub](https://github.com/vkondi/create-scaffold-kit)
 
 Thanks for reading! 🙏
+
+---
+
+![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white) ![CLI](https://img.shields.io/badge/CLI-💻-black?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/I_Published_My_First_npm_CLI_Tool.md)

@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Hello_World_to_GitHub_Actions_Your_First_Automated_Workflow.md)
+[⬅️ Back to Blogs](README.md)
 
 ![hello_world_github_actions](uploads/1794352577190ed4553a6e2f83d5bd1b/hello_world_github_actions.png){width=900 height=394}
 
@@ -301,3 +301,7 @@ GitHub Actions might seem a bit intimidating at first, but once you get the hang
 Start with the simple CI workflow we built together, make sure it works, and then gradually add more automation as you get comfortable. Before you know it, you'll be the GitHub Actions expert on your team!
 
 Happy automating! 🚀
+
+---
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![CI/CD](https://img.shields.io/badge/CI%2FCD-🔒-green?style=flat-square) ![DevOps](https://img.shields.io/badge/DevOps-🛠️-blueviolet?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Hello_World_to_GitHub_Actions_Your_First_Automated_Workflow.md)

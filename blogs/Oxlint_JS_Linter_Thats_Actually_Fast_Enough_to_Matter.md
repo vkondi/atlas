@@ -17,7 +17,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md)
+[⬅️ Back to Blogs](README.md)
 
 ![oxlint_jslinter_blog_header](uploads/51962836fd0ff6e4acfbb359f7b3ef51/oxlint_jslinter_blog_header.png){width=900 height=507}
 
@@ -181,3 +181,7 @@ The best tool is the one that solves your actual problem. Run the benchmarks on 
 - [Official benchmarks](https://github.com/oxc-project/bench-linter)
 
 **Got questions? Benchmarks from your codebase?** Drop them in the comments. I actually read them (clearly, since that's why this post exists).
+
+---
+
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Tooling](https://img.shields.io/badge/Tooling-🔧-grey?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md)

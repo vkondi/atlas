@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Whats_New_in_React_19_A_Beginners_Guide_to_the_Latest_Features.md)
+[⬅️ Back to Blogs](README.md)
 
 Hey, React beginners! React 19, released December 5, 2024, brings features that simplify coding and boost app speed. As a React developer, I’m thrilled to share why these updates are game-changers. Let’s explore the best new features with simple examples to spark your creativity. Ready? Let’s dive in! 🚀
 
@@ -251,3 +251,7 @@ npm install react@19 react-dom@19
 ```
 
 Check out the [React 19 Upgrade Guide](https://react.dev) for more details. Have fun coding, and share in the comments what you’re building with React 19! 🎉
+
+---
+
+![React 19](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Whats_New_in_React_19_A_Beginners_Guide_to_the_Latest_Features.md)

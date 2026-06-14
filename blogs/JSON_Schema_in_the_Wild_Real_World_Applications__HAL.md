@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/JSON_Schema_in_the_Wild_Real_World_Applications__HAL.md)
+[⬅️ Back to Blogs](README.md)
 
 ![part3](uploads/e17ed9e78f3140d51847f22442c0fc3a/part3.png)
 
@@ -567,3 +567,7 @@ _You're now equipped to bring order to the chaos of unvalidated data. Go forth a
 - [Part 1: Understanding the Basics](./JSON_Schema_Your_Datas_New_Best_Friend.md)
 - [Part 2: Implementation with AJV](./JSON_Schema_with_AJV_Implementation_Deep_Dive.md)
 - **Part 3: Real-World Applications & HAL** ← You are here
+
+---
+
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-3949AB?style=flat-square&logo=json-schema&logoColor=white) ![API](https://img.shields.io/badge/API-🌐-blue?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/JSON_Schema_in_the_Wild_Real_World_Applications__HAL.md)

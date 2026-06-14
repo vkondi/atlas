@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Meta_Frameworks_Are_Taking_Over_Frontend_And_Most_Devs_Dont_Even_Notice.md)
+[⬅️ Back to Blogs](README.md)
 
 ![CroppedGemini_Generated_Image_berwgoberwgoberw](uploads/2d90a64bec1db62ce6a24e70ef4d1905/CroppedGemini_Generated_Image_berwgoberwgoberw.png){width=900 height=506}
 
@@ -201,3 +201,7 @@ The question is no longer:
 It’s:
 
 > “Can you design systems using a meta-framework?”
+
+---
+
+![Meta Frameworks](https://img.shields.io/badge/Meta_Frameworks-⚡-brightgreen?style=flat-square) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Meta_Frameworks_Are_Taking_Over_Frontend_And_Most_Devs_Dont_Even_Notice.md)

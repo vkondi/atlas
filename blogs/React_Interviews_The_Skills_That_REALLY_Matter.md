@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/React_Interviews_The_Skills_That_REALLY_Matter.md)
+[⬅️ Back to Blogs](README.md)
 
 ![React_Interviews](uploads/b58bb17a5f773b5f5ba626248c1480ac/React_Interviews.png){width=900 height=600}
 
@@ -240,3 +240,7 @@ What I appreciate most is:
 Those are the candidates who instantly stand out.
 
 ---
+
+---
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/React_Interviews_The_Skills_That_REALLY_Matter.md)

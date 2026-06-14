@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Everyones_Building_AI_Agents_Heres_the_One_I_Built_for_Myself.md)
+[⬅️ Back to Blogs](README.md)
 
 ![ChatGPT_Image_May_24__2026__12_12_37_AM](uploads/aa9af89f55a317d866632f55303c21f3/ChatGPT_Image_May_24__2026__12_12_37_AM.png){width=900 height=494}
 
@@ -83,3 +83,7 @@ Next, I might add PDF support and a lightweight web UI.
 Curious to know, have you built something similar recently? If yes, what problem did you solve?
 
 Also curious, if you were building this, would you keep it fully local or use cloud APIs? What would you do differently?
+
+---
+
+![AI Agents](https://img.shields.io/badge/AI_Agents-🧠-purple?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Everyones_Building_AI_Agents_Heres_the_One_I_Built_for_Myself.md)

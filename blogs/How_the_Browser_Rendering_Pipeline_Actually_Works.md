@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/How_the_Browser_Rendering_Pipeline_Actually_Works.md)
+[⬅️ Back to Blogs](README.md)
 
 ![Browser_Rendering_Pipeline_Actually_Works](uploads/5f43cb6abc24c775724192fbc206ae3f/Browser_Rendering_Pipeline_Actually_Works.png){width=900 height=507}
 
@@ -260,3 +260,7 @@ DOM → Style → Layout → Paint → Composite
 ```
 
 Understanding that model is what separates **framework users from true frontend engineers**.
+
+---
+
+![Browser](https://img.shields.io/badge/Browser-🌐-yellowgreen?style=flat-square) ![Performance](https://img.shields.io/badge/Performance-⚡-orange?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/How_the_Browser_Rendering_Pipeline_Actually_Works.md)

@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Copilot_Forgets_Everything_Make_It_Stop.md)
+[⬅️ Back to Blogs](README.md)
 
 ![Copilot-Forgets-Everything-Make-It-Stop](uploads/b71da2b1349ac5a2178eb0eac6c5113d/Copilot-Forgets-Everything-Make-It-Stop.png){width=900 height=507}
 
@@ -236,3 +236,7 @@ Then:
 - Create prompt files when repetition appears
 
 The model won’t change. But your context can improve every week.
+
+---
+
+![Copilot](https://img.shields.io/badge/Copilot-180828?style=flat-square&logo=githubcopilot&logoColor=white) ![AI](https://img.shields.io/badge/AI-🤖-blue?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Copilot_Forgets_Everything_Make_It_Stop.md)

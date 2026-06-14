@@ -17,7 +17,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Oxfmt_The_Prettier_Compatible_Formatter_Thats_30x_Faster.md)
+[⬅️ Back to Blogs](README.md)
 
 ![oxfmt-blog-header-image](uploads/395f064d4e38d7fe7bf68cbc9d19a753/oxfmt-blog-header-image.png){width=900 height=507}
 
@@ -225,3 +225,7 @@ The best formatter is the one that gets out of your way.
 **Questions? Hit bugs? Found edge cases?** Drop them in the comments, community feedback shapes these tools early on.
 
 **Missed Part 1?** Go read the [Oxlint deep dive](./Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md) on why it's 50-100x faster than ESLint and when you should actually care.
+
+---
+
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Tooling](https://img.shields.io/badge/Tooling-🔧-grey?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Oxfmt_The_Prettier_Compatible_Formatter_Thats_30x_Faster.md)

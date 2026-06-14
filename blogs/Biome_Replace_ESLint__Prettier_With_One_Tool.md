@@ -18,7 +18,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Biome_Replace_ESLint__Prettier_With_One_Tool.md)
+[⬅️ Back to Blogs](README.md)
 
 ![bionme-blog-header](uploads/3fb4cff0b9995a8bd2bea4fa04e94dd4/bionme-blog-header.png){width=768 height=432}
 
@@ -178,3 +178,7 @@ Biome isn't trying to replace ESLint for every use case. But for a lot of standa
 If you find yourself re-doing the ESLint + Prettier setup dance on every new project, it's worth giving Biome a shot. Run `npx @biomejs/biome init` in your next project and see how far the defaults get you.
 
 Chances are, pretty far.
+
+---
+
+![Biome](https://img.shields.io/badge/Biome-E85D44?style=flat-square&logo=biome&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black) ![Tooling](https://img.shields.io/badge/Tooling-🔧-grey?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Biome_Replace_ESLint__Prettier_With_One_Tool.md)

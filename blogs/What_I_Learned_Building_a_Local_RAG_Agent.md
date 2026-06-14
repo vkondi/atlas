@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/What_I_Learned_Building_a_Local_RAG_Agent.md)
+[⬅️ Back to Blogs](README.md)
 
 ![What_I_Learned_Building_a_Local_RAG_Agent](uploads/58bbfc96cbba850f6ee805b1ee204d32/What_I_Learned_Building_a_Local_RAG_Agent.png){width=900 height=503}
 
@@ -231,3 +231,7 @@ A few things I'd highlight if you're building something similar:
 - **Local models are surprisingly capable.** You don't always need a cloud API to get useful answers from your own documents.
 
 If you're curious about RAG or local AI, this kind of project is a great starting point, it's small enough to understand fully, but complex enough to teach you the real fundamentals.
+
+---
+
+![RAG](https://img.shields.io/badge/RAG-🔍-orange?style=flat-square) ![AI Agents](https://img.shields.io/badge/AI_Agents-🧠-purple?style=flat-square) ![Local AI](https://img.shields.io/badge/Local_AI-💻-teal?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/What_I_Learned_Building_a_Local_RAG_Agent.md)
