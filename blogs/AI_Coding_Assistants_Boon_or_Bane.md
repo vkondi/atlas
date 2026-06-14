@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/AI_Coding_Assistants_Boon_or_Bane.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/AI_Coding_Assistants_Boon_or_Bane.md)
 
 ![AI_CODING_HESDER](uploads/e78b0eb57110ce0ee449b4da38a982a4/AI_CODING_HESDER.png){width=768 height=432}
 

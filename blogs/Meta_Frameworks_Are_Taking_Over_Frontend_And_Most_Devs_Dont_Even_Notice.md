@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Meta_Frameworks_Are_Taking_Over_Frontend_And_Most_Devs_Dont_Even_Notice.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Meta_Frameworks_Are_Taking_Over_Frontend_And_Most_Devs_Dont_Even_Notice.md)
 
 ![CroppedGemini_Generated_Image_berwgoberwgoberw](uploads/2d90a64bec1db62ce6a24e70ef4d1905/CroppedGemini_Generated_Image_berwgoberwgoberw.png){width=900 height=506}
 

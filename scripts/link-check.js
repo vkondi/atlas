@@ -47,8 +47,8 @@ console.log(`Scanning links in ${mdFiles.length} markdown files...\n`);
 // markdown-link-check options
 const linkCheckConfig = {
   ignorePatterns: [
-    // Ignore hits.secureri.style view counts
-    { pattern: '^https://hits\\.secureri\\.style/' },
+    // Ignore api.visitorbadge.io view counts
+    { pattern: '^https://api\\.visitorbadge\\.io/' },
     // Ignore dev.to and vercel placeholder publication links
     { pattern: '^https://dev\\.to/vishwajeet/' },
     { pattern: '^https://vishwajeetkondi\\.vercel\\.app/' },

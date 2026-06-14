@@ -23,4 +23,4 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress --exclude "https://hits\.secureri\.style/.*" --exclude "uploads/.*" --exclude "https://dev\.to/vishwajeet/.*" --exclude "https://vishwajeetkondi\.vercel\.app/.*" --exclude "https://www\.npmjs\.com/package/.*" "**/*.md"
+          args: --verbose --no-progress --exclude "https://api\.visitorbadge\.io/.*" --exclude "uploads/.*" --exclude "https://dev\.to/vishwajeet/.*" --exclude "https://vishwajeetkondi\.vercel\.app/.*" --exclude "https://www\.npmjs\.com/package/.*" "**/*.md"

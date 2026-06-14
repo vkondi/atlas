@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/How_the_Browser_Rendering_Pipeline_Actually_Works.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/How_the_Browser_Rendering_Pipeline_Actually_Works.md)
 
 ![Browser_Rendering_Pipeline_Actually_Works](uploads/5f43cb6abc24c775724192fbc206ae3f/Browser_Rendering_Pipeline_Actually_Works.png){width=900 height=507}
 

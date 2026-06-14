@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/What_I_Learned_Building_a_Local_RAG_Agent.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/What_I_Learned_Building_a_Local_RAG_Agent.md)
 
 ![What_I_Learned_Building_a_Local_RAG_Agent](uploads/58bbfc96cbba850f6ee805b1ee204d32/What_I_Learned_Building_a_Local_RAG_Agent.png){width=900 height=503}
 

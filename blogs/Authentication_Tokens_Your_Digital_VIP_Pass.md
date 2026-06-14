@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Authentication_Tokens_Your_Digital_VIP_Pass.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Authentication_Tokens_Your_Digital_VIP_Pass.md)
 
 ![header](uploads/85d14e4a749282296a2bee17823754fc/header.png)
 

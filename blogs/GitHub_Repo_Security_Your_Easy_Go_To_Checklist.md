@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/GitHub_Repo_Security_Your_Easy_Go_To_Checklist.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/GitHub_Repo_Security_Your_Easy_Go_To_Checklist.md)
 
 ![github-logo-png-s8wb6yxlatsyp8s1](uploads/82905c71d8fb1cc591d780f78bb0d0cc/github-logo-png-s8wb6yxlatsyp8s1.png)
 

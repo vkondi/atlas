@@ -1,3 +1,3 @@
 [⬅️ Back](./../README.md)
 
-# Learning ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/learning/README.md)
+# Learning ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.learning/README.md)

@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Ollama__OpenWebUI_Your_Local_AI_Setup_Guide.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Ollama__OpenWebUI_Your_Local_AI_Setup_Guide.md)
 
 _Want to run AI models on your computer without paying for cloud services? Meet Ollama - your new best friend._
 

@@ -17,7 +17,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md)
 
 ![oxlint_jslinter_blog_header](uploads/51962836fd0ff6e4acfbb359f7b3ef51/oxlint_jslinter_blog_header.png){width=900 height=507}
 

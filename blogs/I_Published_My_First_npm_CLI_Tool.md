@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/I_Published_My_First_npm_CLI_Tool.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/I_Published_My_First_npm_CLI_Tool.md)
 
 ![my_first_npm_cli_tool](uploads/bab46387f3a939f7c78e3e5a1afb7412/my_first_npm_cli_tool.png){width=900 height=406}
 
