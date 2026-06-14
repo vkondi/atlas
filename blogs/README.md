@@ -14,16 +14,16 @@ Welcome to my personal collection of articles, tutorials, and notes covering var
 
 A deep dive into validating and securing your runtime data structures using JSON Schema and AJV.
 
-- [Part 1: JSON Schema: Your Data's New Best Friend](./JSON_Schema_Your_Datas_New_Best_Friend.md)
-- [Part 2: JSON Schema with AJV: Deep Dive Implementation](./JSON_Schema_with_AJV_Implementation_Deep_Dive.md)
-- [Part 3: JSON Schema in the Wild: Real-World Applications & HAL](./JSON_Schema_in_the_Wild_Real_World_Applications__HAL.md)
+- [Part 1: JSON Schema: Your Data's New Best Friend](./json-schema-series/JSON_Schema_Your_Datas_New_Best_Friend.md)
+- [Part 2: JSON Schema with AJV: Deep Dive Implementation](./json-schema-series/JSON_Schema_with_AJV_Implementation_Deep_Dive.md)
+- [Part 3: JSON Schema in the Wild: Real-World Applications & HAL](./json-schema-series/JSON_Schema_in_the_Wild_Real_World_Applications__HAL.md)
 
 #### Oxidizing JavaScript Series
 
 Exploring the next generation of blazingly fast JavaScript/TypeScript tools written in Rust.
 
-- [Part 1: Oxlint: JS Linter That's Actually Fast Enough to Matter](./Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md)
-- [Part 2: Oxfmt: The Prettier-Compatible Formatter That's 30x Faster](./Oxfmt_The_Prettier_Compatible_Formatter_Thats_30x_Faster.md)
+- [Part 1: Oxlint: JS Linter That's Actually Fast Enough to Matter](./oxidizing-javascript-series/Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md)
+- [Part 2: Oxfmt: The Prettier-Compatible Formatter That's 30x Faster](./oxidizing-javascript-series/Oxfmt_The_Prettier_Compatible_Formatter_Thats_30x_Faster.md)
 
 ---
 

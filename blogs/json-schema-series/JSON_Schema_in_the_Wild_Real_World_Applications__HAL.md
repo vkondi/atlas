@@ -16,9 +16,9 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](../README.md)
 
-![part3](../assets/blogs/part3.png)
+![part3](../../assets/blogs/part3.png)
 
 _Part 3 of 3: Where Theory Meets Production_
 
@@ -570,4 +570,4 @@ _You're now equipped to bring order to the chaos of unvalidated data. Go forth a
 
 ---
 
-![JSON Schema](https://img.shields.io/badge/JSON_Schema-3949AB?style=flat-square&logo=json-schema&logoColor=white) ![API](https://img.shields.io/badge/API-🌐-blue?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/JSON_Schema_in_the_Wild_Real_World_Applications__HAL.md)
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-3949AB?style=flat-square&logo=json-schema&logoColor=white) ![API](https://img.shields.io/badge/API-🌐-blue?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/json-schema-series/JSON_Schema_in_the_Wild_Real_World_Applications__HAL.md)

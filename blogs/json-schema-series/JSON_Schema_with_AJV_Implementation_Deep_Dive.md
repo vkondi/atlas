@@ -17,9 +17,9 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](../README.md)
 
-![part2](../assets/blogs/part2.png)
+![part2](../../assets/blogs/part2.png)
 
 _Part 2 of 3: Getting Your Hands Dirty_
 
@@ -463,4 +463,4 @@ _Ready to put this knowledge to work in production? Part 3 is where the magic ha
 
 ---
 
-![JSON Schema](https://img.shields.io/badge/JSON_Schema-3949AB?style=flat-square&logo=json-schema&logoColor=white) ![AJV](https://img.shields.io/badge/AJV-red?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/JSON_Schema_with_AJV_Implementation_Deep_Dive.md)
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-3949AB?style=flat-square&logo=json-schema&logoColor=white) ![AJV](https://img.shields.io/badge/AJV-red?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/json-schema-series/JSON_Schema_with_AJV_Implementation_Deep_Dive.md)

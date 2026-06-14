@@ -17,9 +17,9 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](../README.md)
 
-![oxfmt-blog-header-image](../assets/blogs/oxfmt-blog-header-image.png)
+![oxfmt-blog-header-image](../../assets/blogs/oxfmt-blog-header-image.png)
 
 Remember [Part 1](./Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md) where we talked about Oxlint being stupidly fast? Well, buckle up because Oxfmt (the formatter) is even more ridiculous.
 
@@ -228,4 +228,4 @@ The best formatter is the one that gets out of your way.
 
 ---
 
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Tooling](https://img.shields.io/badge/Tooling-🔧-grey?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Oxfmt_The_Prettier_Compatible_Formatter_Thats_30x_Faster.md)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Tooling](https://img.shields.io/badge/Tooling-🔧-grey?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/oxidizing-javascript-series/Oxfmt_The_Prettier_Compatible_Formatter_Thats_30x_Faster.md)

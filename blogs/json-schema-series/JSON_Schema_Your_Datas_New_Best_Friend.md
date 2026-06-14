@@ -16,9 +16,9 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](../README.md)
 
-![part1](../assets/blogs/part1.png)
+![part1](../../assets/blogs/part1.png)
 
 _Part 1 of 3: Understanding the Basics_
 
@@ -234,4 +234,4 @@ _Ready to never debug mysterious data issues at 2 AM again? Let's make it happen
 
 ---
 
-![JSON Schema](https://img.shields.io/badge/JSON_Schema-3949AB?style=flat-square&logo=json-schema&logoColor=white) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/JSON_Schema_Your_Datas_New_Best_Friend.md)
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-3949AB?style=flat-square&logo=json-schema&logoColor=white) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/json-schema-series/JSON_Schema_Your_Datas_New_Best_Friend.md)

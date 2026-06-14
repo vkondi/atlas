@@ -17,9 +17,9 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](../README.md)
 
-![oxlint_jslinter_blog_header](../assets/blogs/oxlint_jslinter_blog_header.png)
+![oxlint_jslinter_blog_header](../../assets/blogs/oxlint_jslinter_blog_header.png)
 
 So here's the thing about my last Biome blog post, the comments section(on Reddit) turned into a mini war zone. Not the angry kind, thankfully. More like the curious kind. Everyone wanted to know about Oxlint and how it stacks up against Biome.
 
@@ -184,4 +184,4 @@ The best tool is the one that solves your actual problem. Run the benchmarks on 
 
 ---
 
-![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Tooling](https://img.shields.io/badge/Tooling-🔧-grey?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Tooling](https://img.shields.io/badge/Tooling-🔧-grey?style=flat-square) ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/oxidizing-javascript-series/Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md)
