@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Hello_World_to_GitHub_Actions_Your_First_Automated_Workflow.md)
 
 ![hello_world_github_actions](uploads/1794352577190ed4553a6e2f83d5bd1b/hello_world_github_actions.png){width=900 height=394}
 

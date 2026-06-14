@@ -17,7 +17,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/JSON_Schema_with_AJV_Implementation_Deep_Dive.md)
 
 ![part2](uploads/4eba1f37ce67d9acd99afa186a458903/part2.png)
 

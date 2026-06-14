@@ -1,4 +1,4 @@
-# Atlas
+# Atlas ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/README.md)
 
 My personal knowledge repository containing:
 

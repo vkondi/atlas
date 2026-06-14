@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Whats_New_in_React_19_A_Beginners_Guide_to_the_Latest_Features.md)
 
 Hey, React beginners! React 19, released December 5, 2024, brings features that simplify coding and boost app speed. As a React developer, I’m thrilled to share why these updates are game-changers. Let’s explore the best new features with simple examples to spark your creativity. Ready? Let’s dive in! 🚀
 

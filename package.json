@@ -6,7 +6,8 @@
     "format": "prettier --write .",
     "lint": "markdownlint **/*.md",
     "link-check": "node scripts/link-check.js",
-    "prepare": "husky"
+    "prepare": "husky",
+    "validate": "yarn format && yarn lint && yarn link-check"
   },
   "devDependencies": {
     "husky": "^9.1.7",

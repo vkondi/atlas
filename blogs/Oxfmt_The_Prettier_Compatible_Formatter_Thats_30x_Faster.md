@@ -17,7 +17,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Oxfmt_The_Prettier_Compatible_Formatter_Thats_30x_Faster.md)
 
 ![oxfmt-blog-header-image](uploads/395f064d4e38d7fe7bf68cbc9d19a753/oxfmt-blog-header-image.png){width=900 height=507}
 

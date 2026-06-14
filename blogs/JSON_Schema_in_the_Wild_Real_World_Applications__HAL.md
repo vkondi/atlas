@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/JSON_Schema_in_the_Wild_Real_World_Applications__HAL.md)
 
 ![part3](uploads/e17ed9e78f3140d51847f22442c0fc3a/part3.png)
 

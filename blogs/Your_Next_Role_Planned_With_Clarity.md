@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Your_Next_Role_Planned_With_Clarity.md)
 
 ![next-role_header](uploads/54508f20ddd20b42e762a3be8442889c/next-role_header.png){width=627 height=173}
 

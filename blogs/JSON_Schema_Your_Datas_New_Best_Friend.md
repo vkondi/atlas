@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/JSON_Schema_Your_Datas_New_Best_Friend.md)
 
 ![part1](uploads/bc6dc6a3eef6b0af5de3d97368c7b89f/part1.png)
 

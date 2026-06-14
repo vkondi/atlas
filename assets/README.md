@@ -1,3 +1,3 @@
 [⬅️ Back](./../README.md)
 
-# Assets
+# Assets ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/assets/README.md)

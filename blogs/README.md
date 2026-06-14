@@ -1,6 +1,6 @@
 [⬅️ Back](./../README.md)
 
-# Blogs
+# Blogs ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/README.md)
 
 Welcome to my personal collection of articles, tutorials, and notes covering various aspects of modern web development, toolings, AI coding assistants, security, and career progression.
 

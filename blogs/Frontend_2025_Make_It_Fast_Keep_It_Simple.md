@@ -16,7 +16,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Frontend_2025_Make_It_Fast_Keep_It_Simple.md)
 
 ![FE_2025](uploads/93820339276c31e5c53637c42b94a0d3/FE_2025.png)
 

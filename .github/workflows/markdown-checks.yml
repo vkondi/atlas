@@ -2,9 +2,9 @@ name: Markdown Quality Checks
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   pull_request:
-    branches: [ main, master ]
+    branches: [main, master]
 
 jobs:
   markdown-lint:
@@ -14,7 +14,7 @@ jobs:
       - name: Markdown Lint
         uses: davidanson/markdownlint-cli2-action@v16
         with:
-          globs: "**/*.md"
+          globs: '**/*.md'
 
   link-check:
     runs-on: ubuntu-latest
@@ -23,4 +23,4 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress --exclude "uploads/.*" --exclude "https://dev\.to/vishwajeet/.*" --exclude "https://vishwajeetkondi\.vercel\.app/.*" --exclude "https://www\.npmjs\.com/package/.*" "**/*.md"
+          args: --verbose --no-progress --exclude "https://hits\.secureri\.style/.*" --exclude "uploads/.*" --exclude "https://dev\.to/vishwajeet/.*" --exclude "https://vishwajeetkondi\.vercel\.app/.*" --exclude "https://www\.npmjs\.com/package/.*" "**/*.md"

@@ -18,7 +18,7 @@ publications:
     published_at: 2026-06-14
 ---
 
-[⬅️ Back to Blogs](README.md)
+[⬅️ Back to Blogs](README.md) ![Hits](https://hits.secureri.style/v1/github/vkondi/atlas/blogs/Biome_Replace_ESLint__Prettier_With_One_Tool.md)
 
 ![bionme-blog-header](uploads/3fb4cff0b9995a8bd2bea4fa04e94dd4/bionme-blog-header.png){width=768 height=432}
 
