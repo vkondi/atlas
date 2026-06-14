@@ -40,6 +40,7 @@ Okay, let's get into the benchmarks. I'm pulling these from [Oxc's official benc
 ### Oxlint vs ESLint vs Biome
 
 **Vue Core codebase (~900 files):**
+
 ```
 oxlint:     138ms
 Biome:      377ms (2.7x slower than Oxlint)
@@ -49,6 +50,7 @@ ESLint:     28.6s (207x slower than Oxlint)
 Yeah, you read that right. ESLint took almost 30 seconds. Oxlint? Under 140 milliseconds.
 
 **Outline repository (larger project):**
+
 ```
 oxlint:     150ms
 Biome:      498ms (3.3x slower than Oxlint)
@@ -56,7 +58,6 @@ ESLint:     [They didn't even bother timing it]
 ```
 
 [According to their official benchmarks page](https://oxc.rs/docs/guide/benchmarks), Oxlint is 50-100x faster than ESLint depending on how many CPU cores you have. The record? **264,925 files linted in 22.5 seconds**, roughly 10,000 files per second.
-
 
 ## Why Is It So Fast?
 
@@ -70,15 +71,15 @@ I know what you're thinking. "Rust is faster than JavaScript", yeah, we get it. 
 
 ## Feature Comparison: Oxlint vs Biome
 
-| Feature | Oxlint 1.0 | Biome 2.0 |
-|---------|-----------|-----------|
-| **Speed** | ~10,000 files/sec | ~5,000 files/sec |
-| **Built-in rules** | 670+ | 250+ |
-| **ESLint plugin compat** | Preview (experimental) | None |
-| **Type-aware linting** | Alpha via tsgolint | Stable via Biotype |
-| **Formatting** | Yes (oxfmt, alpha) | Yes (stable) |
-| **Single binary** | No (separate tools) | Yes |
-| **Memory efficiency** | Higher usage | Lower usage |
+| Feature                  | Oxlint 1.0             | Biome 2.0          |
+| ------------------------ | ---------------------- | ------------------ |
+| **Speed**                | ~10,000 files/sec      | ~5,000 files/sec   |
+| **Built-in rules**       | 670+                   | 250+               |
+| **ESLint plugin compat** | Preview (experimental) | None               |
+| **Type-aware linting**   | Alpha via tsgolint     | Stable via Biotype |
+| **Formatting**           | Yes (oxfmt, alpha)     | Yes (stable)       |
+| **Single binary**        | No (separate tools)    | Yes                |
+| **Memory efficiency**    | Higher usage           | Lower usage        |
 
 Oxlint is roughly 2x faster than Biome at linting, has way more rules available, and supports some ESLint plugins (experimental). But Biome wins on memory usage and the "one tool does everything" philosophy.
 
@@ -88,7 +89,7 @@ Oxlint is roughly 2x faster than Biome at linting, has way more rules available,
 
 **Oxlint's approach:** Uses tsgo (Microsoft's Go port of TypeScript) via tsgolint. 100% TypeScript compatibility, all 40+ typescript-eslint rules, but requires two binaries and is still alpha.
 
-Evan You [said it best](https://oxc.rs/blog/2025-12-08-type-aware-alpha): *"Biome's type-aware linting cannot guarantee full coverage or behavior alignment with official TS."*
+Evan You [said it best](https://oxc.rs/blog/2025-12-08-type-aware-alpha): _"Biome's type-aware linting cannot guarantee full coverage or behavior alignment with official TS."_
 
 Biome's approach is more mature right now. Oxlint's tsgolint is still alpha. Pick your tradeoff.
 
@@ -145,12 +146,14 @@ Oxlint runs first (fast feedback <1s), ESLint catches what Oxlint missed. You ge
 ## When Should You Actually Use Oxlint?
 
 **Choose Oxlint if:**
+
 - You need maximum speed (2x faster than Biome, 50-100x faster than ESLint)
 - You want gradual migration (run alongside ESLint)
 - You need broad rule coverage (670+ rules)
 - You're in the Vite/Vue ecosystem (same team, shared tooling)
 
 **Don't choose Oxlint if:**
+
 - You need stable type-aware linting today (use Biome or ESLint)
 - You rely heavily on custom ESLint plugins (experimental support)
 - You want one unified tool (Biome does linting + formatting)
@@ -173,6 +176,7 @@ The best tool is the one that solves your actual problem. Run the benchmarks on 
 **Next up:** [Part 2 where we'll dig into Oxfmt](./Oxfmt_The_Prettier_Compatible_Formatter_Thats_30x_Faster.md) (the formatter) and how it compares to Prettier and Biome. Spoiler: it's fast. Really fast.
 
 **Try it yourself:**
+
 - [Oxlint docs](https://oxc.rs/docs/guide/usage/linter)
 - [Official benchmarks](https://github.com/oxc-project/bench-linter)
 

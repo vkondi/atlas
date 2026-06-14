@@ -1,5 +1,5 @@
 ---
-title: "I Published My First npm CLI Tool"
+title: 'I Published My First npm CLI Tool'
 tags:
   - npm
   - cli
@@ -34,11 +34,9 @@ ESLint. Prettier. Husky. Docker. CI.
 
 An hour gone before I even write real code.
 
-
-
 It’s tedious and honestly, it’s the same copy-paste every time.
 
-So the question became, *why not just automate this?*
+So the question became, _why not just automate this?_
 
 ---
 
@@ -53,6 +51,7 @@ npx create-scaffold-kit my-app
 It asks you a few questions — framework, TypeScript, linting, testing, Docker, CI/CD and generates a full project ready to go.
 
 **Things it sets up for you:**
+
 - ✅ TypeScript (strict mode)
 - ✅ ESLint with flat config (strict or standard)
 - ✅ Prettier / OXfmt formatting
@@ -64,8 +63,8 @@ It asks you a few questions — framework, TypeScript, linting, testing, Docker,
 
 No more copy-pasting configs. Just answer the prompts and start coding.
 
-
 This is especially useful if you:
+
 - **Start projects frequently**
 - **Care about consistent tooling**
 - **Don’t want to reinvent setup every time**
@@ -107,6 +106,7 @@ banner: {
 #### 3. Bundling for CLI is different
 
 **tsup** handles the TypeScript compilation. But a few things stood out:
+
 - Setting `"type": "module"` in package.json
 - Making sure import paths use `.js` extensions, even in TypeScript source files
 - The `files` field to control what actually gets published to npm
@@ -132,6 +132,7 @@ There are `prepack`/`postpack` lifecycle hooks that run before and after packagi
 #### 7. Publishing is both easy and scary at the same time
 
 `npm publish`. Just two words. But right before running it:
+
 - "Was everything tested?"
 - "Is the version right?"
 - "Is the dist clean?"

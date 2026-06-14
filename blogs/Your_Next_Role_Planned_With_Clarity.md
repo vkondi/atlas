@@ -1,5 +1,5 @@
 ---
-title: "Your Next Role Planned With Clarity"
+title: 'Your Next Role Planned With Clarity'
 tags:
   - career
   - resume
@@ -29,8 +29,8 @@ No job boards. No generic AI advice. No "let me tell you about a PM role." Just 
 ## Show Me Proof
 
 ### Step 1: Upload Your Resume
-![NextRole Landing Page](uploads/b9d8e15407eff6542237250a8a511c5e/01-landing-page.png){width=220 height=476}
 
+![NextRole Landing Page](uploads/b9d8e15407eff6542237250a8a511c5e/01-landing-page.png){width=220 height=476}
 
 Paste your resume text or upload a PDF. The AI extracts what matters: your role, experience, tech stack, strengths. Takes 10 seconds.
 
@@ -41,20 +41,24 @@ See something wrong? Edit it. That's YOUR profile.
 ![Extracted Career Profile](uploads/6b2277a4f47f08204ca1b4e2a826d22e/03-profile-extracted.png){width=220 height=476}
 
 ### Step 2: See Your Options (This Is The Money Part)
+
 ![Career Paths Carousel](uploads/f4b807f3d201aeb0283467fa573d32a9/04-career-paths.png){width=220 height=476}
 
 Four to six career paths appear. Each one is ranked by:
+
 - **Market demand** - How many jobs are actually hiring for this?
 - **Fit score** - How well does this match YOU?
 
-These aren't "you could *maybe* do this." These are "here's what the market wants + here's what you're ready for."
+These aren't "you could _maybe_ do this." These are "here's what the market wants + here's what you're ready for."
 
 Pick the one that excites you.
 
 ### Step 3: Get Your Roadmap (The Actual Plan)
+
 ![Detailed Career Path Analysis](uploads/8881d6ee01e634f5bfcb9b28390a9a72/05-detailed-analysis.png){width=220 height=476}
 
 This is where it gets real. You get:
+
 - **Why this path fits you** (specific to your background)
 - **What skills you're missing** (gaps, ranked by priority)
 - **A month-by-month plan for the next 6-12 months** - Not "learn React." Actual projects. Milestones. Certifications. Timelines.
@@ -82,4 +86,3 @@ Seriously, you can be done in 3 minutes.
 ## For The Curious Types
 
 Built with Next.js + TypeScript. AI-powered by Gemini or Deepseek. Open source. [Check out the code.](https://github.com/vkondi/next-role)
-

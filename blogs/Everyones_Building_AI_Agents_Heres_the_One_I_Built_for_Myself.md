@@ -30,9 +30,9 @@ Over time, I had collected a bunch of blog posts and technical notes in a folder
 
 Questions like:
 
-* What topics do I write about most?
-* Do some posts contradict each other?
-* Can I create a learning path from my own notes?
+- What topics do I write about most?
+- Do some posts contradict each other?
+- Can I create a learning path from my own notes?
 
 Uploading everything to ChatGPT did not feel right.
 

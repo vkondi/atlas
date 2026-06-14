@@ -1,5 +1,5 @@
 ---
-title: "GitHub Secure Guide Checklist"
+title: 'GitHub Secure Guide Checklist'
 tags:
   - github
   - security
@@ -20,8 +20,8 @@ publications:
 
 # GitHub Secure Guide Checklist
 
-
 ## A. General Settings
+
 - Repository Visibility: Ensure it's set to Public (if intended).
 - Repository name: Keep it clear and descriptive.
 - Description: Add a brief description.
@@ -30,11 +30,13 @@ publications:
 - Archiving: Disable if the repo is active.
 
 ## B. Branch Protection Rules
+
 Go to:
 
 `Settings → Branches → Branch protection rules → Add rule`
 
 Configure for main (or default branch):
+
 - ☑ Require a pull request before merging
 - ☑ Require approvals (at least 1-2)
 - ☑ Dismiss stale pull request approvals
@@ -46,44 +48,55 @@ Configure for main (or default branch):
 - ☑ Do not allow bypassing the above settings (even for admins)
 
 ## C. Actions & Workflows Permissions
+
 Go to:
 
 `Settings → Actions → General`
 
 Actions permissions:
+
 - ☑ Allow all actions (or restrict to only verified actions if security is critical).
 
 Workflow permissions:
+
 - ☑ Read repository contents and packages permissions (least privilege).
 
 ## D. Collaborators & Teams
+
 Go to:
 
 `Settings → Collaborators & Teams`
+
 - Only grant Write/Admin access to trusted contributors.
 - Prefer Pull Requests (PRs) over direct commits.
 
 ## E. Security & Moderation
+
 Go to:
 
 `Settings → Code security & analysis`
+
 - ☑ Enable vulnerability alerts (Dependabot).
 - ☑ Enable Dependabot security updates.
 - ☑ Enable secret scanning (GitHub Advanced Security, if available).
 - ☑ Enable push protection (blocks commits with exposed secrets).
 
 ## F. Merge Button Behavior
+
 Go to:
 
 `Settings → General → Pull Requests`
+
 - ☑ Allow merge commits / Squash merging / Rebase merging (choose as needed).
 - ☑ Always suggest updating pull request branches.
 - ☑ Allow auto-merge.
 
 ## G. Issue & Discussion Settings
+
 Go to:
 
 `Settings → Features`
+
 - ☑ Enable Issues (if needed).
 - ☑ Enable Discussions (optional).
-☑ Enable Projects (optional).
+  ☑ Enable Projects (optional).

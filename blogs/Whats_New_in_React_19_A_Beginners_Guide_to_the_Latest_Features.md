@@ -43,7 +43,7 @@ function UpdateNameForm() {
       if (error) return error;
       return null;
     },
-    null
+    null,
   );
 
   return (
@@ -188,11 +188,13 @@ Here’s a server component fetching data:
 ```jsx
 // UserList.server.jsx
 export default async function UserList() {
-  const users = await fetch('https://api.example.com/users').then(res => res.json());
+  const users = await fetch('https://api.example.com/users').then((res) =>
+    res.json(),
+  );
   return (
     <div>
       <h1>Users</h1>
-      {users.map(user => (
+      {users.map((user) => (
         <p key={user.id}>{user.name}</p>
       ))}
     </div>
@@ -217,11 +219,13 @@ import { use, Suspense } from 'react';
 
 function Comments({ commentsPromise }) {
   const comments = use(commentsPromise);
-  return comments.map(comment => <p key={comment.id}>{comment.text}</p>);
+  return comments.map((comment) => <p key={comment.id}>{comment.text}</p>);
 }
 
 function App() {
-  const commentsPromise = fetch('https://api.example.com/comments').then(res => res.json());
+  const commentsPromise = fetch('https://api.example.com/comments').then(
+    (res) => res.json(),
+  );
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Comments commentsPromise={commentsPromise} />

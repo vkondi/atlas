@@ -1,0 +1,26 @@
+name: Markdown Quality Checks
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  markdown-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Markdown Lint
+        uses: davidanson/markdownlint-cli2-action@v16
+        with:
+          globs: "**/*.md"
+
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress --exclude "uploads/.*" --exclude "https://dev\.to/vishwajeet/.*" --exclude "https://vishwajeetkondi\.vercel\.app/.*" --exclude "https://www\.npmjs\.com/package/.*" "**/*.md"

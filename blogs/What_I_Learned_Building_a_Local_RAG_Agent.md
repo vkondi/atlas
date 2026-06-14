@@ -1,5 +1,5 @@
 ---
-title: "What I Learned Building a Local RAG Agent"
+title: 'What I Learned Building a Local RAG Agent'
 tags:
   - rag
   - ai-agents
@@ -67,6 +67,7 @@ FileEvent(path="notes/docker.md", event_type="deleted")
 This is the reader. It takes raw file content and turns it into clean, usable text.
 
 It does a few useful things:
+
 - Strips all markdown symbols (`**bold**` → bold, `# Heading` → Heading) so the AI gets plain text
 - Pulls out any YAML front matter (the `---` metadata block at the top of some files)
 - Splits the document into sections by heading level
@@ -85,7 +86,7 @@ A folder watcher detects file changes → the parser reads and cleans the text �
 
 ### 2. Embedding
 
-**Goal:** Take the chunks from the Ingestion phase and attach a vector (a list of numbers) to each one, so it can be stored and searched by *meaning*.
+**Goal:** Take the chunks from the Ingestion phase and attach a vector (a list of numbers) to each one, so it can be stored and searched by _meaning_.
 
 Think of it like a translator, it takes human-readable text and converts it into a mathematical form that the database can actually compare.
 
@@ -97,7 +98,7 @@ This is the worker at the translation desk. Its one job: take a list of text str
 
 #### Part 2: The Smart Manager
 
-This sits above the Embedder and decides *which* chunks actually need embedding, because embedding is slow and costs compute.
+This sits above the Embedder and decides _which_ chunks actually need embedding, because embedding is slow and costs compute.
 
 This is what makes repeat runs fast, if you add one new file to a folder with 200 already-indexed files, only the new file's chunks get processed.
 
@@ -143,12 +144,12 @@ Every stored chunk carries this info alongside its vector:
 
 ```json
 {
-  "content":      "Docker is a platform for running containers...",
+  "content": "Docker is a platform for running containers...",
   "content_hash": "a3f9c2...",
-  "source_path":  "/notes/docker.md",
-  "chunk_index":  3,
-  "heading":      "What is Docker?",
-  "word_count":   87
+  "source_path": "/notes/docker.md",
+  "chunk_index": 3,
+  "heading": "What is Docker?",
+  "word_count": 87
 }
 ```
 
@@ -214,12 +215,11 @@ The big benefit here is that it reduces hallucination. By giving the AI a focuse
 
 The query engine wraps retrieval + LLM together and processes your question into a grounded, context-aware answer.
 
-
 ---
 
 ### Wrapping Up
 
-Building this agent taught me more than I expected, not just about RAG, but about how these systems actually *think*.
+Building this agent taught me more than I expected, not just about RAG, but about how these systems actually _think_.
 
 Each of the 5 stages has a very specific job, and they're all fairly simple on their own. The magic happens when you chain them together. A file changes → it gets chunked → embedded → stored → retrieved → answered.
 
@@ -231,4 +231,3 @@ A few things I'd highlight if you're building something similar:
 - **Local models are surprisingly capable.** You don't always need a cloud API to get useful answers from your own documents.
 
 If you're curious about RAG or local AI, this kind of project is a great starting point, it's small enough to understand fully, but complex enough to teach you the real fundamentals.
-

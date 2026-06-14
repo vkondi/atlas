@@ -1,0 +1,25 @@
+{
+  "name": "atlas",
+  "version": "1.0.0",
+  "description": "Personal knowledge repository containing blogs, notes, learning, and projects.",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "markdownlint **/*.md",
+    "link-check": "node scripts/link-check.js",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.7",
+    "markdown-link-check": "^3.14.2",
+    "markdownlint-cli": "^0.48.0",
+    "prettier": "^3.8.4"
+  },
+  "lint-staged": {
+    "*.md": [
+      "prettier --write",
+      "markdownlint",
+      "node scripts/link-check.js"
+    ]
+  }
+}

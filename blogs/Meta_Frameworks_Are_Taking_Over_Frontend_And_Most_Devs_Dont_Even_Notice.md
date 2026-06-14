@@ -35,6 +35,7 @@ Welcome to the era of **meta-frameworks**.
 > A framework on top of a framework.
 
 Not just UI (like React), but also:
+
 - routing
 - data fetching
 - backend APIs
@@ -53,6 +54,7 @@ Next.js · Nuxt · Remix · SvelteKit · Astro
 Frontend got too complex.
 
 Before:
+
 - pick a router
 - setup Webpack
 - manage state
@@ -73,6 +75,7 @@ Frontend is no longer just “frontend”.
 > Your frontend is also your backend.
 
 You now have:
+
 - API routes inside frontend
 - server-side logic next to UI
 - server components & edge functions
@@ -84,11 +87,13 @@ React apps are no longer just client-side.
 ## Performance forced this
 
 SPAs had problems:
+
 - slow initial load
 - poor SEO
 - too much JS
 
 So we moved back to:
+
 - server rendering
 - static generation
 - hybrid rendering
@@ -99,9 +104,9 @@ Meta-frameworks handle this by default.
 
 ## This isn’t a small trend
 
-- Next.js powers **50%+ React apps**  
-- ~68% of new apps prefer it over plain React  
-- Meta-frameworks are now the default for scalable apps  
+- Next.js powers **50%+ React apps**
+- ~68% of new apps prefer it over plain React
+- Meta-frameworks are now the default for scalable apps
 
 Developers are clearly moving toward **integrated ecosystems** instead of assembling tools.
 
@@ -112,6 +117,7 @@ Developers are clearly moving toward **integrated ecosystems** instead of assemb
 > Do more on the server, ship less to the browser.
 
 Result:
+
 - faster load
 - better UX
 - better performance
@@ -145,31 +151,33 @@ Faster UI
 ```
 
 👉 Less browser work  
-👉 More server work  
+👉 More server work
 
 ---
 
 ## Not all meta-frameworks are the same
 
 **Full-stack**
-Next.js, Nuxt → everything in one place  
+Next.js, Nuxt → everything in one place
 
 **Server-first**
-Remix, SvelteKit → closer to web fundamentals  
+Remix, SvelteKit → closer to web fundamentals
 
 **Content-first**
-Astro → almost zero JS  
+Astro → almost zero JS
 
 ---
 
 ## Are they perfect?
 
 **Pros**
+
 - faster setup
 - better defaults
 - less decision fatigue
 
 **Cons**
+
 - more abstraction
 - breaking changes
 - some lock-in

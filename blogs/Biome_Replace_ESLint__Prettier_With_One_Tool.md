@@ -1,5 +1,5 @@
 ---
-title: "Biome: Replace ESLint & Prettier With One Tool"
+title: 'Biome: Replace ESLint & Prettier With One Tool'
 tags:
   - biome
   - eslint
@@ -32,7 +32,7 @@ Biome is an attempt to fix that.
 
 [Biome](https://biomejs.dev/) is a fast, all-in-one toolchain for web projects. It handles formatting and linting — the two things most JS/TS devs reach for ESLint and Prettier to do — in a single tool, written in Rust.
 
-The short pitch: run one command, get your code formatted *and* linted, no plugin wrangling required.
+The short pitch: run one command, get your code formatted _and_ linted, no plugin wrangling required.
 
 It supports JavaScript, TypeScript, JSX, TSX, JSON, CSS, GraphQL, and HTML out of the box. No extra packages needed for any of those.
 
@@ -80,7 +80,7 @@ Initialize a config file:
 npx @biomejs/biome init
 ```
 
-This creates a `biome.json` in your project root. The defaults are sensible — you don't *have* to touch it.
+This creates a `biome.json` in your project root. The defaults are sensible — you don't _have_ to touch it.
 
 ### Format your code
 
@@ -137,10 +137,10 @@ One thing worth calling out: Biome's diagnostics are genuinely good. Here's an e
 // The call chain .map().flat() can be replaced with .flatMap()
 
 // Before
-array.map(sentence => sentence.split(' ')).flat();
+array.map((sentence) => sentence.split(' ')).flat();
 
 // After (safe fix)
-array.flatMap(sentence => sentence.split(' '));
+array.flatMap((sentence) => sentence.split(' '));
 ```
 
 It tells you what's wrong, where it is, why it matters, and shows you the fix. Most ESLint errors don't do that — you often end up Googling the rule name to understand what it actually wants.
@@ -164,7 +164,7 @@ Biome is a great fit if:
 - You work with large codebases where Prettier's speed is noticeable in CI
 - You want consistent tooling without bikeshedding over ESLint plugin choices
 
-It's probably *not* the right fit yet if:
+It's probably _not_ the right fit yet if:
 
 - You rely heavily on niche ESLint plugins (think `eslint-plugin-jsx-a11y`, framework-specific rules, etc.) that Biome doesn't have equivalents for
 - Your team has a deeply customized ESLint config that took months to get right and works well

@@ -1,5 +1,5 @@
 ---
-title: "Frontend 2025: Make It Fast, Keep It Simple"
+title: 'Frontend 2025: Make It Fast, Keep It Simple'
 tags:
   - frontend
   - react
@@ -19,7 +19,6 @@ publications:
 [⬅️ Back to Blogs](README.md)
 
 ![FE_2025](uploads/93820339276c31e5c53637c42b94a0d3/FE_2025.png)
-
 
 Frontend development moves fast—new frameworks, new tools, new “best practices.” It’s easy to feel behind. In 2025, the focus is shifting. It’s less about chasing the next big thing and more about building things that last, choosing wisely, and solving real user problems.
 
@@ -77,11 +76,11 @@ Core Web Vitals now focus on **LCP, CLS, and INP** (INP replaced FID). Use **RUM
 
 Frontend in 2025 is about making good calls:
 
-* Use React 19’s server components and Actions when they reduce complexity and ship faster UI.
-* Reach for WebGPU only when it truly improves UX—and plan fallbacks.
-* Design AI features that are transparent and easy to correct.
-* Prefer zero‑runtime styling (Tailwind, CSS Modules, Vanilla Extract) to keep CSS fast.
-* Optimize for real users with RUM and edge—not just lab scores.
+- Use React 19’s server components and Actions when they reduce complexity and ship faster UI.
+- Reach for WebGPU only when it truly improves UX—and plan fallbacks.
+- Design AI features that are transparent and easy to correct.
+- Prefer zero‑runtime styling (Tailwind, CSS Modules, Vanilla Extract) to keep CSS fast.
+- Optimize for real users with RUM and edge—not just lab scores.
 
 The future is less about the tool and more about the decision. We add value by choosing well, not by coding the fastest.
 

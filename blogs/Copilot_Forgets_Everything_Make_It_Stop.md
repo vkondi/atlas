@@ -1,5 +1,5 @@
 ---
-title: "Copilot Forgets Everything: Make It Stop"
+title: 'Copilot Forgets Everything: Make It Stop'
 tags:
   - github-copilot
   - ai
@@ -64,12 +64,14 @@ Example:
 
 ```markdown
 ## Stack
+
 - React 18, TypeScript (strict), Tailwind CSS
 - Node.js + Express + Prisma + PostgreSQL
 - Testing: Vitest + React Testing Library
 - Package manager: pnpm only
 
 ## Rules
+
 - Named exports only — no default exports
 - No `any` types
 - Every API route uses `authenticate`
@@ -102,10 +104,11 @@ Each file defines where it applies:
 
 ```markdown
 ---
-applyTo: "src/components/**/*.tsx"
+applyTo: 'src/components/**/*.tsx'
 ---
 
 ## Component Rules
+
 - Functional components only
 - Props interface named `[ComponentName]Props`
 - Use `cn()` for conditional classes
@@ -123,7 +126,7 @@ Copilot has a memory tool in VS Code (preview, enabled by default).
 When you correct it, make it persistent:
 
 ```
-Remember: never use optional chaining on Prisma query results. 
+Remember: never use optional chaining on Prisma query results.
 Always handle null with an explicit if-check.
 ```
 
@@ -150,7 +153,7 @@ Remember UserAvatar breaks in Server Components
 
 Check memory with `Chat: Show Memory Files`.
 
-*Note: Memory tool is in preview, enable via `github.copilot.chat.tools.memory.enabled`.* 
+_Note: Memory tool is in preview, enable via `github.copilot.chat.tools.memory.enabled`._
 
 ---
 
@@ -168,14 +171,15 @@ Example:
 
 ```markdown
 ---
-name: "code-review"
-description: "Review staged changes"
-mode: "ask"
+name: 'code-review'
+description: 'Review staged changes'
+mode: 'ask'
 ---
 
 Review staged changes.
 
 Flag:
+
 - Must Fix — bugs, auth, unsafe types
 - Should Fix — standards, missing tests
 - Suggestion — improvements
@@ -187,9 +191,9 @@ Now your team shares the same workflow.
 
 Other useful prompts:
 
-* `/new-component`
-* `/new-migration`
-* `/write-tests`
+- `/new-component`
+- `/new-migration`
+- `/write-tests`
 
 ---
 
@@ -227,8 +231,8 @@ Start with `copilot-instructions.md`. Add your stack and a few rules. Commit it.
 
 Then:
 
-* Add scoped files when needed
-* Save repeated fixes to memory
-* Create prompt files when repetition appears
+- Add scoped files when needed
+- Save repeated fixes to memory
+- Create prompt files when repetition appears
 
 The model won’t change. But your context can improve every week.

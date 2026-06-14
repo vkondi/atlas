@@ -1,5 +1,5 @@
 ---
-title: "React Interviews: The Skills That REALLY Matter"
+title: 'React Interviews: The Skills That REALLY Matter'
 tags:
   - react
   - interview-prep
@@ -33,11 +33,11 @@ Before I ask anything about React, I look for solid JavaScript fundamentals.
 Not trivia. Not trick questions.
 But questions that reveal understanding of:
 
-* closures
-* async/await & the event loop
-* immutability
-* objects vs references
-* array/object manipulation
+- closures
+- async/await & the event loop
+- immutability
+- objects vs references
+- array/object manipulation
 
 Weak JavaScript always shows up later as weak React.
 
@@ -51,10 +51,10 @@ A surprising number of candidates can’t structure accessible HTML or reason ab
 
 So I pay attention to:
 
-* semantic markup
-* flex/Grid awareness
-* responsive thinking
-* accessibility basics
+- semantic markup
+- flex/Grid awareness
+- responsive thinking
+- accessibility basics
 
 Because at the end of the day, React renders HTML and CSS—not magic.
 
@@ -80,10 +80,10 @@ Hooks expose a developer’s thought process instantly.
 
 So I probe their understanding of:
 
-* dependency arrays
-* stale closures
-* memoization logic
-* custom hooks for reusability
+- dependency arrays
+- stale closures
+- memoization logic
+- custom hooks for reusability
 
 The best candidates don’t just know how to use hooks—they know why hooks behave the way they do.
 
@@ -97,10 +97,10 @@ This is where seniority becomes obvious.
 
 Strong candidates can explain:
 
-* when to use Context vs Redux vs Zustand
-* the difference between server state and client state
-* caching strategies
-* selectors and memoization
+- when to use Context vs Redux vs Zustand
+- the difference between server state and client state
+- caching strategies
+- selectors and memoization
 
 Average candidates choose tools.
 Senior candidates justify them.
@@ -116,11 +116,11 @@ This is the biggest differentiator.
 I don’t want a tour of their GitHub.
 I want to see:
 
-* how data flows in their app
-* what patterns they use
-* how they handle performance challenges
-* how they break down large features
-* why they made architectural decisions
+- how data flows in their app
+- what patterns they use
+- how they handle performance challenges
+- how they break down large features
+- why they made architectural decisions
 
 If someone can’t explain their own application clearly, I can immediately tell they weren’t involved deeply.
 
@@ -132,12 +132,12 @@ If someone can’t explain their own application clearly, I can immediately tell
 
 I often ask questions like:
 
-* “Why does this component re-render?”
-* “How would you optimize this list?”
-* “Where would memoization help—or hurt?”
+- “Why does this component re-render?”
+- “How would you optimize this list?”
+- “Where would memoization help—or hurt?”
 
 Great engineers don’t jump to `useMemo` blindly.
-They talk about *causes*, not just *fixes*.
+They talk about _causes_, not just _fixes_.
 
 **Their approach here shows whether they can keep an app fast, even at scale.**
 
@@ -147,11 +147,11 @@ They talk about *causes*, not just *fixes*.
 
 I always look at how candidates:
 
-* structure folders
-* break down components
-* avoid props drilling
-* design for reusability
-* handle side effects
+- structure folders
+- break down components
+- avoid props drilling
+- design for reusability
+- handle side effects
 
 React is just a UI layer—architecture is the real skill.
 
@@ -165,10 +165,10 @@ Most interviews now include TypeScript.
 
 I check whether candidates can:
 
-* type props
-* type hooks
-* use utility types
-* handle API responses safely
+- type props
+- type hooks
+- use utility types
+- handle API responses safely
 
 I’m not looking for TS gurus.
 I’m looking for engineers who understand how TS reduces runtime bugs.
@@ -183,11 +183,11 @@ This is where many candidates stumble.
 
 I want to hear how they handle:
 
-* loading & error states
-* retries and fallback UI
-* parallel requests
-* data caching (TanStack Query is a big plus)
-* Suspense in modern React
+- loading & error states
+- retries and fallback UI
+- parallel requests
+- data caching (TanStack Query is a big plus)
+- Suspense in modern React
 
 **How they think about async workflows tells me whether they can build resilient user experiences.**
 
@@ -197,10 +197,10 @@ I want to hear how they handle:
 
 I listen for:
 
-* understanding of React Testing Library
-* mocking strategies
-* testing asynchronous behavior
-* testing components using context/hooks
+- understanding of React Testing Library
+- mocking strategies
+- testing asynchronous behavior
+- testing components using context/hooks
 
 Tests say a lot about the engineer writing them.
 
@@ -212,10 +212,10 @@ Tests say a lot about the engineer writing them.
 
 Even if they haven’t used it, awareness of:
 
-* server components
-* actions
-* Suspense improvements
-* transitions
+- server components
+- actions
+- Suspense improvements
+- transitions
 
 …shows they’re staying relevant.
 
@@ -229,14 +229,14 @@ When you interview someone, you do not expect them to know everything.
 I certainly don’t know everything myself.
 
 What I appreciate most is:
-* clarity
-* reasoning
-* technical humility
-* strong fundamentals
-* an ability to explain their decisions
-* and real ownership of the projects they’ve built
+
+- clarity
+- reasoning
+- technical humility
+- strong fundamentals
+- an ability to explain their decisions
+- and real ownership of the projects they’ve built
 
 Those are the candidates who instantly stand out.
 
-
-----------------
+---

@@ -1,5 +1,5 @@
 ---
-title: "How the Browser Rendering Pipeline Actually Works"
+title: 'How the Browser Rendering Pipeline Actually Works'
 tags:
   - browser
   - performance
@@ -89,9 +89,9 @@ h1 {
 
 The browser resolves:
 
-* the cascade
-* specificity
-* inheritance
+- the cascade
+- specificity
+- inheritance
 
 Eventually, every element receives its **computed styles**.
 
@@ -132,9 +132,9 @@ Once the render tree is built, the browser calculates the **geometry of each ele
 
 The browser determines:
 
-* width and height
-* position
-* spacing and box model calculations
+- width and height
+- position
+- spacing and box model calculations
 
 Example:
 
@@ -153,11 +153,11 @@ After layout, the browser converts elements into **drawing instructions**.
 
 Painting includes:
 
-* text
-* colors
-* borders
-* shadows
-* images
+- text
+- colors
+- borders
+- shadows
+- images
 
 At this stage the browser determines **how elements should be visually drawn**, but pixels are not yet combined into the final frame.
 
@@ -169,11 +169,11 @@ Modern browsers split the page into **layers** and send them to the GPU composit
 
 Certain properties create separate layers, including:
 
-* `transform`
-* `opacity`
-* `position: fixed`
-* `video`
-* `canvas`
+- `transform`
+- `opacity`
+- `position: fixed`
+- `video`
+- `canvas`
 
 The GPU then **combines these layers into the final image displayed on the screen**.
 
@@ -240,10 +240,10 @@ This is why modern animation guidelines recommend using `transform` and `opacity
 
 Many developers blame frameworks when performance issues appear. In reality, problems usually come from:
 
-* excessive DOM updates
-* layout thrashing
-* expensive paint operations
-* overly complex render trees
+- excessive DOM updates
+- layout thrashing
+- expensive paint operations
+- overly complex render trees
 
 Frameworks may change, but browser fundamentals remain the same.
 

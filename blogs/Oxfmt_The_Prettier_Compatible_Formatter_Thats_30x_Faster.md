@@ -21,7 +21,7 @@ publications:
 
 ![oxfmt-blog-header-image](uploads/395f064d4e38d7fe7bf68cbc9d19a753/oxfmt-blog-header-image.png){width=900 height=507}
 
-Remember [Part 1](./Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter) where we talked about Oxlint being stupidly fast? Well, buckle up because Oxfmt (the formatter) is even more ridiculous.
+Remember [Part 1](./Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md) where we talked about Oxlint being stupidly fast? Well, buckle up because Oxfmt (the formatter) is even more ridiculous.
 
 We're talking 30x faster than Prettier. Not a typo. Thirty times.
 
@@ -42,6 +42,7 @@ Key phrase: **targets compatibility**. Not "reinvents formatting" like Biome. No
 All numbers from [Oxc's official formatter benchmark repo](https://github.com/oxc-project/bench-formatter).
 
 **Large single file (TypeScript compiler's parser.ts, ~540KB):**
+
 ```
 oxfmt:                  104ms
 Biome:                  136ms (1.3x slower)
@@ -50,18 +51,21 @@ prettier (default):     1.04s (10x slower)
 ```
 
 **Mixed repository (Storybook):**
+
 ```
 oxfmt:              16.6s
 prettier+oxc:       40.2s (2.4x slower)
 ```
 
 **Full features (Continue repository):**
+
 ```
 oxfmt:              9.2s
 prettier+oxc:       56.8s (6.2x slower)
 ```
 
 **Memory usage (Outline benchmark):**
+
 ```
 prettier:       223.9 MB
 oxfmt:          152.9 MB
@@ -77,10 +81,13 @@ This is the million-dollar question. If Oxfmt formats your code differently, mig
 Good news: [Oxfmt passes ~95% of Prettier's JS/TS test suite](https://oxc.rs/blog/2025-12-01-oxfmt-alpha). The remaining 5%? Some of it is intentional.
 
 **Example — array formatting consistency:**
+
 ```javascript
 // Prettier (inconsistent)
 const longer = [
-  'item1', 'item2', 'item3' // breaks despite fitting
+  'item1',
+  'item2',
+  'item3', // breaks despite fitting
 ];
 
 // Oxfmt (consistent)
@@ -101,17 +108,17 @@ The team is even [submitting PRs to Prettier](https://voidzero.dev/posts/announc
 
 ## Feature Comparison
 
-| Feature | Oxfmt (Alpha) | Prettier 3.7 | Biome 2.0 |
-|---------|---------------|--------------|-----------|
-| **Speed** | 30x faster | Baseline | 3x faster |
-| **Prettier compatibility** | 95%+ | 100% | ~70% |
-| **JS/TS/CSS/HTML** | ✅ | ✅ | ✅ |
-| **Tailwind class sorting** | Built-in ✅ | Plugin | ❌ |
-| **Import sorting** | Coming | Plugin | Built-in ✅ |
-| **Vue/Svelte/Astro** | Roadmap | Plugins | ❌ |
-| **Plugin support** | Roadmap | ✅ | ❌ |
-| **Memory usage** | 152 MB | 224 MB | 62 MB |
-| **Production ready** | No (alpha) | Yes | Yes |
+| Feature                    | Oxfmt (Alpha) | Prettier 3.7 | Biome 2.0   |
+| -------------------------- | ------------- | ------------ | ----------- |
+| **Speed**                  | 30x faster    | Baseline     | 3x faster   |
+| **Prettier compatibility** | 95%+          | 100%         | ~70%        |
+| **JS/TS/CSS/HTML**         | ✅            | ✅           | ✅          |
+| **Tailwind class sorting** | Built-in ✅   | Plugin       | ❌          |
+| **Import sorting**         | Coming        | Plugin       | Built-in ✅ |
+| **Vue/Svelte/Astro**       | Roadmap       | Plugins      | ❌          |
+| **Plugin support**         | Roadmap       | ✅           | ❌          |
+| **Memory usage**           | 152 MB        | 224 MB       | 62 MB       |
+| **Production ready**       | No (alpha)    | Yes          | Yes         |
 
 Oxfmt's built-in Tailwind class sorting is a big deal if you're on Tailwind, no `prettier-plugin-tailwindcss` needed. But no Vue/Svelte/Astro support yet, and no plugin system. Both are on the beta roadmap.
 
@@ -146,7 +153,7 @@ Run Oxfmt locally for instant feedback. Keep Prettier in CI as a safety net. Sli
 
 ### Option 3: Wait for Beta (Q1 2026)
 
-Honestly the right call for most teams. [The team has been upfront](https://voidzero.dev/posts/announcing-oxfmt-alpha): *"Oxfmt is in alpha and may not suit complex setups."*
+Honestly the right call for most teams. [The team has been upfront](https://voidzero.dev/posts/announcing-oxfmt-alpha): _"Oxfmt is in alpha and may not suit complex setups."_
 
 Beta is targeting Q1 2026 with import sorting, Vue/Svelte/Astro support, and a plugin system. If you're not hitting CI pain right now, wait.
 
@@ -161,17 +168,20 @@ Beta is targeting Q1 2026 with import sorting, Vue/Svelte/Astro support, and a p
 ## When Should You Use It?
 
 **Choose Oxfmt if:**
+
 - You need maximum speed (30x faster)
 - You use Tailwind heavily (built-in class sorting, no plugin needed)
 - You only format JS/TS/CSS/HTML
 - You're okay with alpha software and willing to file issues
 
 **Stick with Prettier if:**
+
 - You rely on plugins (import sorters, framework formatters)
 - You need proven stability
 - Your pre-commit hooks run on thousands of files daily (alpha bugs = blocked commits)
 
 **Consider Biome if:**
+
 - You want one unified tool for linting + formatting
 - Memory efficiency matters to you
 - You need stable Rust-based tooling today
@@ -191,7 +201,7 @@ If you go all-in on Oxc, your entire pipeline shares the same parser. Lint and f
 }
 ```
 
-VoidZero's vision: *"One toolchain for parse, lint, format, transform, bundle."*
+VoidZero's vision: _"One toolchain for parse, lint, format, transform, bundle."_
 
 Not fully there yet, Oxfmt is alpha, Rolldown is still in development. But the direction is clear.
 
@@ -206,6 +216,7 @@ The best formatter is the one that gets out of your way.
 ---
 
 **Try it yourself:**
+
 - [Oxfmt docs](https://oxc.rs/docs/guide/usage/formatter)
 - [Official benchmarks](https://github.com/oxc-project/bench-formatter)
 - [Alpha announcement](https://oxc.rs/blog/2025-12-01-oxfmt-alpha)
@@ -213,4 +224,4 @@ The best formatter is the one that gets out of your way.
 
 **Questions? Hit bugs? Found edge cases?** Drop them in the comments, community feedback shapes these tools early on.
 
-**Missed Part 1?** Go read the [Oxlint deep dive](./Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter) on why it's 50-100x faster than ESLint and when you should actually care.
+**Missed Part 1?** Go read the [Oxlint deep dive](./Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md) on why it's 50-100x faster than ESLint and when you should actually care.

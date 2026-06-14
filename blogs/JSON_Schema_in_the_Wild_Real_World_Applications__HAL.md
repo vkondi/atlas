@@ -1,5 +1,5 @@
 ---
-title: "JSON Schema in the Wild: Real-World Applications & HAL"
+title: 'JSON Schema in the Wild: Real-World Applications & HAL'
 tags:
   - json-schema
   - data-validation
@@ -37,23 +37,26 @@ const ajv = new Ajv({ allErrors: true });
 addFormats(ajv);
 
 // Generic validation middleware
-function validateRequest(schema: any, target: 'body' | 'query' | 'params' = 'body') {
+function validateRequest(
+  schema: any,
+  target: 'body' | 'query' | 'params' = 'body',
+) {
   const validate = ajv.compile(schema);
-  
+
   return (req: any, res: any, next: any) => {
     const dataToValidate = req[target];
-    
+
     if (!validate(dataToValidate)) {
       return res.status(400).json({
         error: 'Validation failed',
-        details: validate.errors?.map(err => ({
+        details: validate.errors?.map((err) => ({
           field: err.instancePath || err.params?.missingProperty,
           message: err.message,
-          value: err.data
-        }))
+          value: err.data,
+        })),
       });
     }
-    
+
     // Store validated data (with defaults applied!)
     req.validatedData = dataToValidate;
     next();
@@ -62,71 +65,66 @@ function validateRequest(schema: any, target: 'body' | 'query' | 'params' = 'bod
 
 // Define your schemas
 const createUserSchema = {
-  type: "object",
+  type: 'object',
   properties: {
-    name: { type: "string", minLength: 1, maxLength: 100 },
-    email: { type: "string", format: "email" },
-    age: { type: "number", minimum: 13, maximum: 120 },
-    role: { enum: ["user", "admin"], default: "user" }
+    name: { type: 'string', minLength: 1, maxLength: 100 },
+    email: { type: 'string', format: 'email' },
+    age: { type: 'number', minimum: 13, maximum: 120 },
+    role: { enum: ['user', 'admin'], default: 'user' },
   },
-  required: ["name", "email", "age"],
-  additionalProperties: false
+  required: ['name', 'email', 'age'],
+  additionalProperties: false,
 };
 
 const updateUserSchema = {
-  type: "object",
+  type: 'object',
   properties: {
-    name: { type: "string", minLength: 1, maxLength: 100 },
-    email: { type: "string", format: "email" },
-    age: { type: "number", minimum: 13, maximum: 120 }
+    name: { type: 'string', minLength: 1, maxLength: 100 },
+    email: { type: 'string', format: 'email' },
+    age: { type: 'number', minimum: 13, maximum: 120 },
   },
   minProperties: 1, // At least one field must be provided
-  additionalProperties: false
+  additionalProperties: false,
 };
 
 // Use in your routes
 const app = express();
 app.use(express.json());
 
-app.post('/users', 
-  validateRequest(createUserSchema, 'body'),
-  (req, res) => {
-    // req.validatedData contains clean, validated data
-    const user = createUser(req.validatedData);
-    res.json(user);
-  }
-);
+app.post('/users', validateRequest(createUserSchema, 'body'), (req, res) => {
+  // req.validatedData contains clean, validated data
+  const user = createUser(req.validatedData);
+  res.json(user);
+});
 
-app.patch('/users/:id', 
+app.patch(
+  '/users/:id',
   validateRequest(updateUserSchema, 'body'),
   (req, res) => {
     const userId = req.params.id;
     const updates = req.validatedData;
     const user = updateUser(userId, updates);
     res.json(user);
-  }
+  },
 );
 
 // Query parameter validation too!
 const searchSchema = {
-  type: "object",
+  type: 'object',
   properties: {
-    q: { type: "string", minLength: 1 },
-    page: { type: "string", pattern: "^[1-9]\\d*$", default: "1" },
-    limit: { type: "string", pattern: "^(10|25|50|100)$", default: "25" }
+    q: { type: 'string', minLength: 1 },
+    page: { type: 'string', pattern: '^[1-9]\\d*$', default: '1' },
+    limit: { type: 'string', pattern: '^(10|25|50|100)$', default: '25' },
   },
-  required: ["q"],
-  additionalProperties: false
+  required: ['q'],
+  additionalProperties: false,
 };
 
-app.get('/search', 
-  validateRequest(searchSchema, 'query'),
-  (req, res) => {
-    const { q, page, limit } = req.validatedData;
-    const results = searchUsers(q, parseInt(page), parseInt(limit));
-    res.json(results);
-  }
-);
+app.get('/search', validateRequest(searchSchema, 'query'), (req, res) => {
+  const { q, page, limit } = req.validatedData;
+  const results = searchUsers(q, parseInt(page), parseInt(limit));
+  res.json(results);
+});
 ```
 
 ## 2. Data Pipeline Validation (ETL with Confidence)
@@ -143,35 +141,35 @@ addFormats(ajv);
 
 // Schema for incoming data records
 const dataRecordSchema = {
-  type: "object",
+  type: 'object',
   properties: {
-    id: { 
-      type: "string", 
-      pattern: "^[A-Z]{2}[0-9]{6}$" // e.g., "AB123456"
+    id: {
+      type: 'string',
+      pattern: '^[A-Z]{2}[0-9]{6}$', // e.g., "AB123456"
     },
-    timestamp: { 
-      type: "string", 
-      format: "date-time" 
+    timestamp: {
+      type: 'string',
+      format: 'date-time',
     },
-    value: { 
-      type: "number",
-      minimum: 0
+    value: {
+      type: 'number',
+      minimum: 0,
     },
-    category: { 
-      enum: ["sales", "marketing", "support", "development"] 
+    category: {
+      enum: ['sales', 'marketing', 'support', 'development'],
     },
     metadata: {
-      type: "object",
+      type: 'object',
       properties: {
-        source: { type: "string" },
-        confidence: { type: "number", minimum: 0, maximum: 1 }
+        source: { type: 'string' },
+        confidence: { type: 'number', minimum: 0, maximum: 1 },
       },
-      required: ["source"],
-      additionalProperties: true // Allow extra metadata
-    }
+      required: ['source'],
+      additionalProperties: true, // Allow extra metadata
+    },
   },
-  required: ["id", "timestamp", "value", "category"],
-  additionalProperties: false
+  required: ['id', 'timestamp', 'value', 'category'],
+  additionalProperties: false,
 };
 
 const validateRecord = ajv.compile(dataRecordSchema);
@@ -193,24 +191,25 @@ interface ProcessingResult {
 export function processDataBatch(records: any[]): ProcessingResult {
   const validRecords: any[] = [];
   const invalidRecords: any[] = [];
-  
+
   records.forEach((record, index) => {
     if (validateRecord(record)) {
       validRecords.push(record);
     } else {
       invalidRecords.push({
         record,
-        errors: validateRecord.errors?.map(err => 
-          `${err.instancePath || 'root'}: ${err.message}`
-        ) || []
+        errors:
+          validateRecord.errors?.map(
+            (err) => `${err.instancePath || 'root'}: ${err.message}`,
+          ) || [],
       });
     }
   });
-  
+
   const total = records.length;
   const valid = validRecords.length;
   const invalid = invalidRecords.length;
-  
+
   return {
     validRecords,
     invalidRecords,
@@ -218,8 +217,8 @@ export function processDataBatch(records: any[]): ProcessingResult {
       total,
       valid,
       invalid,
-      validationRate: (valid / total) * 100
-    }
+      validationRate: (valid / total) * 100,
+    },
   };
 }
 
@@ -227,21 +226,23 @@ export function processDataBatch(records: any[]): ProcessingResult {
 async function runETL(inputFile: string) {
   const rawData = await loadDataFromFile(inputFile);
   const result = processDataBatch(rawData);
-  
+
   console.log(`Processed ${result.stats.total} records:`);
-  console.log(`✅ Valid: ${result.stats.valid} (${result.stats.validationRate.toFixed(1)}%)`);
+  console.log(
+    `✅ Valid: ${result.stats.valid} (${result.stats.validationRate.toFixed(1)}%)`,
+  );
   console.log(`❌ Invalid: ${result.stats.invalid}`);
-  
+
   if (result.invalidRecords.length > 0) {
     console.log('\nInvalid records:');
     result.invalidRecords.slice(0, 5).forEach((invalid, i) => {
       console.log(`Record ${i + 1}:`, invalid.errors.join(', '));
     });
   }
-  
+
   // Process only valid records
   await saveToDatabase(result.validRecords);
-  
+
   // Log invalid records for investigation
   if (result.invalidRecords.length > 0) {
     await saveInvalidRecords(result.invalidRecords);
@@ -258,62 +259,62 @@ HAL makes your APIs self-describing with built-in navigation. Think JSON with li
 ```typescript
 // HAL link schema
 const halLinkSchema = {
-  type: "object",
+  type: 'object',
   properties: {
-    href: { type: "string", format: "uri-reference" },
-    templated: { type: "boolean" },
-    type: { type: "string" }
+    href: { type: 'string', format: 'uri-reference' },
+    templated: { type: 'boolean' },
+    type: { type: 'string' },
   },
-  required: ["href"],
-  additionalProperties: false
+  required: ['href'],
+  additionalProperties: false,
 };
 
 // Complete HAL resource schema
 const halUserSchema = {
-  type: "object",
+  type: 'object',
   properties: {
     // Resource data
-    id: { type: "number" },
-    name: { type: "string" },
-    email: { type: "string", format: "email" },
-    
+    id: { type: 'number' },
+    name: { type: 'string' },
+    email: { type: 'string', format: 'email' },
+
     // HAL links (required)
     _links: {
-      type: "object",
+      type: 'object',
       properties: {
         self: halLinkSchema,
         edit: halLinkSchema,
-        delete: halLinkSchema
+        delete: halLinkSchema,
       },
-      required: ["self"],
-      additionalProperties: halLinkSchema
+      required: ['self'],
+      additionalProperties: halLinkSchema,
     },
-    
+
     // HAL embedded resources (optional)
     _embedded: {
-      type: "object",
+      type: 'object',
       properties: {
         posts: {
-          type: "array",
+          type: 'array',
           items: {
-            type: "object",
+            type: 'object',
             properties: {
-              id: { type: "number" },
-              title: { type: "string" },
+              id: { type: 'number' },
+              title: { type: 'string' },
               _links: {
-                type: "object",
+                type: 'object',
                 properties: { self: halLinkSchema },
-                required: ["self"]
-              }
+                required: ['self'],
+              },
             },
-            required: ["id", "title", "_links"]
-          }
-        }
-      }
-    }
+            required: ['id', 'title', '_links'],
+          },
+        },
+      },
+    },
   },
-  required: ["id", "name", "_links"],
-  additionalProperties: false
+  required: ['id', 'name', '_links'],
+  additionalProperties: false,
 };
 ```
 
@@ -331,24 +332,24 @@ class HalBuilder {
       _links: {
         self: { href: `${baseUrl}/users/${user.id}` },
         edit: { href: `${baseUrl}/users/${user.id}` },
-        posts: { href: `${baseUrl}/users/${user.id}/posts` }
-      }
+        posts: { href: `${baseUrl}/users/${user.id}/posts` },
+      },
     };
-    
+
     // Add embedded posts if available
     if (user.posts?.length) {
       halUser._embedded = {
-        posts: user.posts.map(post => ({
+        posts: user.posts.map((post) => ({
           ...post,
-          _links: { self: { href: `${baseUrl}/posts/${post.id}` } }
-        }))
+          _links: { self: { href: `${baseUrl}/posts/${post.id}` } },
+        })),
       };
     }
-    
+
     if (!validateHalUser(halUser)) {
       throw new Error('Invalid HAL resource');
     }
-    
+
     return halUser;
   }
 }
@@ -357,7 +358,7 @@ class HalBuilder {
 app.get('/users/:id', async (req, res) => {
   const user = await getUserById(req.params.id);
   const baseUrl = `${req.protocol}://${req.get('host')}`;
-  
+
   res.json(HalBuilder.user(user, baseUrl));
 });
 ```
@@ -378,54 +379,54 @@ addFormats(ajv);
 
 describe('User Registration Schema', () => {
   const validate = ajv.compile(userRegistrationSchema);
-  
+
   it('should accept valid user data', () => {
     const validUser = {
-      username: "johndoe123",
-      email: "john@example.com",
-      password: "SecurePass123!",
-      age: 25
+      username: 'johndoe123',
+      email: 'john@example.com',
+      password: 'SecurePass123!',
+      age: 25,
     };
-    
+
     expect(validate(validUser)).toBe(true);
   });
-  
+
   it('should reject invalid email', () => {
     const invalidUser = {
-      username: "johndoe123",
-      email: "not-an-email",
-      password: "SecurePass123!",
-      age: 25
+      username: 'johndoe123',
+      email: 'not-an-email',
+      password: 'SecurePass123!',
+      age: 25,
     };
-    
+
     expect(validate(invalidUser)).toBe(false);
     expect(validate.errors).toContainEqual(
       expect.objectContaining({
         instancePath: '/email',
-        message: 'must match format "email"'
-      })
+        message: 'must match format "email"',
+      }),
     );
   });
-  
+
   it('should reject weak password', () => {
     const invalidUser = {
-      username: "johndoe123",
-      email: "john@example.com",
-      password: "weak",
-      age: 25
+      username: 'johndoe123',
+      email: 'john@example.com',
+      password: 'weak',
+      age: 25,
     };
-    
+
     expect(validate(invalidUser)).toBe(false);
   });
-  
+
   it('should apply defaults', () => {
     const userData = {
-      username: "johndoe123",
-      email: "john@example.com",
-      password: "SecurePass123!",
-      age: 25
+      username: 'johndoe123',
+      email: 'john@example.com',
+      password: 'SecurePass123!',
+      age: 25,
     };
-    
+
     validate(userData);
     expect(userData.preferences?.newsletter).toBe(false);
     expect(userData.preferences?.theme).toBe('light');
@@ -434,38 +435,38 @@ describe('User Registration Schema', () => {
 
 describe('HAL User Schema', () => {
   const validate = ajv.compile(halUserSchema);
-  
+
   it('should accept valid HAL user', () => {
     const halUser = {
       id: 123,
-      name: "Alice",
-      email: "alice@example.com",
-      createdAt: "2023-01-01T00:00:00.000Z",
+      name: 'Alice',
+      email: 'alice@example.com',
+      createdAt: '2023-01-01T00:00:00.000Z',
       _links: {
-        self: { href: "/users/123" },
-        edit: { href: "/users/123" }
-      }
+        self: { href: '/users/123' },
+        edit: { href: '/users/123' },
+      },
     };
-    
+
     expect(validate(halUser)).toBe(true);
   });
-  
+
   it('should require _links.self', () => {
     const invalidHalUser = {
       id: 123,
-      name: "Alice",
-      email: "alice@example.com",
+      name: 'Alice',
+      email: 'alice@example.com',
       _links: {
-        edit: { href: "/users/123" }
-      }
+        edit: { href: '/users/123' },
+      },
     };
-    
+
     expect(validate(invalidHalUser)).toBe(false);
     expect(validate.errors).toContainEqual(
       expect.objectContaining({
         instancePath: '/_links',
-        message: "must have required property 'self'"
-      })
+        message: "must have required property 'self'",
+      }),
     );
   });
 });
@@ -478,14 +479,14 @@ describe('HAL User Schema', () => {
 ```typescript
 // Keep schemas versioned for backward compatibility
 const schemas = {
-  'v1': {
+  v1: {
     user: userSchemaV1,
-    post: postSchemaV1
+    post: postSchemaV1,
   },
-  'v2': {
+  v2: {
     user: userSchemaV2,
-    post: postSchemaV2
-  }
+    post: postSchemaV2,
+  },
 };
 
 function getValidator(resource: string, version: string = 'v2') {
@@ -503,15 +504,15 @@ function getValidator(resource: string, version: string = 'v2') {
 // Monitor validation performance
 function createTimedValidator(schema: any, name: string) {
   const validate = ajv.compile(schema);
-  
+
   return (data: any) => {
     const start = process.hrtime.bigint();
     const result = validate(data);
     const end = process.hrtime.bigint();
-    
+
     const duration = Number(end - start) / 1000000; // Convert to milliseconds
     console.log(`Validation ${name}: ${duration.toFixed(2)}ms`);
-    
+
     return result;
   };
 }
@@ -525,18 +526,18 @@ function generateSchemaDoc(schema: any, title: string) {
   const doc = {
     title,
     properties: {},
-    required: schema.required || []
+    required: schema.required || [],
   };
-  
+
   for (const [prop, definition] of Object.entries(schema.properties || {})) {
     doc.properties[prop] = {
       type: definition.type,
       description: definition.description || `${prop} field`,
       required: schema.required?.includes(prop) || false,
-      example: generateExample(definition)
+      example: generateExample(definition),
     };
   }
-  
+
   return doc;
 }
 ```

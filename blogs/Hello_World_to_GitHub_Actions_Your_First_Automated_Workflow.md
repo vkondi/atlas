@@ -1,5 +1,5 @@
 ---
-title: "Hello World to GitHub Actions: Your First Automated Workflow"
+title: 'Hello World to GitHub Actions: Your First Automated Workflow'
 tags:
   - github-actions
   - ci-cd
@@ -65,9 +65,9 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [main, develop]
   pull_request:
-    branches: [ main, develop ]
+    branches: [main, develop]
 
 permissions:
   contents: read
@@ -75,29 +75,29 @@ permissions:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Run linter
         run: npm run lint
-      
+
       - name: Type check
         run: npm run type-check
-      
+
       - name: Build project
         run: npm run build
-      
+
       - name: Run tests
         run: npm test
 ```
@@ -117,13 +117,14 @@ Let me walk you through it:
 **runs-on: ubuntu-latest** - This means "run on a computer with Ubuntu Linux." GitHub provides this for free!
 
 **steps:** - These are the actual commands that run, one after another:
-  - First, we grab the code
-  - Then we install Node.js
-  - Install our dependencies
-  - Run the linter to check code style
-  - Check for TypeScript errors
-  - Build the project
-  - Run our tests
+
+- First, we grab the code
+- Then we install Node.js
+- Install our dependencies
+- Run the linter to check code style
+- Check for TypeScript errors
+- Build the project
+- Run our tests
 
 ### Setting Up Your package.json
 
@@ -153,7 +154,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 permissions:
   contents: read
@@ -163,35 +164,35 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-      
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Build project
         run: npm run build
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-  
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
@@ -239,7 +240,7 @@ The logs tell you EXACTLY what happened at each step. It's super helpful for deb
 
 ## Understanding Workflow Permissions
 
-Quick important thing - see that `permissions` block we added? That's like setting up proper door locks for your house. 
+Quick important thing - see that `permissions` block we added? That's like setting up proper door locks for your house.
 
 By default, workflows might have way more permissions than they need. We're being explicit and saying "this workflow only needs to READ the code" with `contents: read`. If later you need to do something like comment on pull requests, you'd add `pull-requests: write`.
 
