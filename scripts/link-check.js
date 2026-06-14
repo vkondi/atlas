@@ -56,6 +56,8 @@ const linkCheckConfig = {
     { pattern: '^uploads/' },
     // Ignore npm placeholder packages if any
     { pattern: '^https://www\\.npmjs\\.com/package/' },
+    // Ignore Sophos security links due to scraping blocks causing socket hang up
+    { pattern: '^https://www\\.sophos\\.com/' },
   ],
 };
 

@@ -6,8 +6,9 @@
     "format": "prettier --write .",
     "lint": "markdownlint **/*.md",
     "link-check": "node scripts/link-check.js",
+    "validate-blogs": "node scripts/validate-blog.js",
     "prepare": "husky",
-    "validate": "yarn format && yarn lint && yarn link-check"
+    "validate": "yarn format && yarn lint && yarn link-check && yarn validate-blogs"
   },
   "devDependencies": {
     "husky": "^9.1.7",
@@ -21,6 +22,9 @@
       "prettier --write",
       "markdownlint",
       "node scripts/link-check.js"
+    ],
+    "blogs/**/*.md": [
+      "node scripts/validate-blog.js"
     ]
   }
 }

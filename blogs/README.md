@@ -35,6 +35,7 @@ Articles on utilizing local AI models, building personal RAG pipelines, and inte
 - [Copilot Forgets Everything: Make It Stop](./Copilot_Forgets_Everything_Make_It_Stop.md)
 - [Everyone's Building AI Agents: Here's the One I Built for Myself](./Everyones_Building_AI_Agents_Heres_the_One_I_Built_for_Myself.md)
 - [Ollama & OpenWebUI: Your Local AI Setup Guide](./Ollama__OpenWebUI_Your_Local_AI_Setup_Guide.md)
+- [So I Built This AI Thing That Doesnt Suck](./So_I_Built_This_AI_Thing_That_Doesnt_Suck.md)
 - [What I Learned Building a Local RAG Agent](./What_I_Learned_Building_a_Local_RAG_Agent.md)
 
 ---
@@ -43,11 +44,12 @@ Articles on utilizing local AI models, building personal RAG pipelines, and inte
 
 Insights into modern frontend architecture, React features, and developer tooling.
 
+- [Biome: Replace ESLint & Prettier With One Tool](./Biome_Replace_ESLint__Prettier_With_One_Tool.md)
 - [Frontend 2025: Make It Fast, Keep It Simple](./Frontend_2025_Make_It_Fast_Keep_It_Simple.md)
+- [I Think We Can Finally Stop Writing UseEffect For Data Fetching](./I_think_we_can_finally_stop_writing_useEffect_for_data_fetching.md)
 - [Meta Frameworks Are Taking Over Frontend (And Most Devs Don't Even Notice)](./Meta_Frameworks_Are_Taking_Over_Frontend_And_Most_Devs_Dont_Even_Notice.md)
 - [React Interviews: The Skills That REALLY Matter](./React_Interviews_The_Skills_That_REALLY_Matter.md)
 - [What's New in React 19: A Beginner's Guide to the Latest Features](./Whats_New_in_React_19_A_Beginners_Guide_to_the_Latest_Features.md)
-- [Biome: Replace ESLint & Prettier With One Tool](./Biome_Replace_ESLint__Prettier_With_One_Tool.md)
 
 ---
 
@@ -55,10 +57,11 @@ Insights into modern frontend architecture, React features, and developer toolin
 
 Guides and checklists to secure your repositories and automate integrations.
 
+- [Authentication Tokens: Your Digital VIP Pass](./Authentication_Tokens_Your_Digital_VIP_Pass.md)
 - [GitHub Repo Security: Your Easy Go-To Checklist](./GitHub_Repo_Security_Your_Easy_Go_To_Checklist.md)
 - [GitHub Secure Guide Checklist](./GitHub_Secure_Guide_Checklist.md)
 - [Hello World to GitHub Actions: Your First Automated Workflow](./Hello_World_to_GitHub_Actions_Your_First_Automated_Workflow.md)
-- [Authentication Tokens: Your Digital VIP Pass](./Authentication_Tokens_Your_Digital_VIP_Pass.md)
+- [So Axios Got Hacked](./So_Axios_got_hacked.md)
 
 ---
 
@@ -75,6 +78,7 @@ Exploring how the browser processes, renders, and displays web pages.
 Real-world experiences on shipping software and structured planning for career growth.
 
 - [I Published My First npm CLI Tool](./I_Published_My_First_npm_CLI_Tool.md)
+- [Your Job Isnt Gone Relax](./Your_Job_Isnt_Gone_Relax.md)
 - [Your Next Role Planned With Clarity](./Your_Next_Role_Planned_With_Clarity.md)
 
 ---
