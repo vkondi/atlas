@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![hello_world_github_actions](uploads/1794352577190ed4553a6e2f83d5bd1b/hello_world_github_actions.png){width=900 height=394}
+![hello_world_github_actions](../assets/blogs/hello_world_github_actions.png)
 
 Hey there! So you're building a React app with TypeScript and Vite, and you keep hearing people talk about CI/CD and GitHub Actions. What's all the fuss about? Let me break it down for you in plain English.
 

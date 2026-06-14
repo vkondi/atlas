@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![part1](uploads/bc6dc6a3eef6b0af5de3d97368c7b89f/part1.png)
+![part1](../assets/blogs/part1.png)
 
 _Part 1 of 3: Understanding the Basics_
 

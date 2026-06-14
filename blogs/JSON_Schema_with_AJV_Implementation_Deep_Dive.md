@@ -19,7 +19,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![part2](uploads/4eba1f37ce67d9acd99afa186a458903/part2.png)
+![part2](../assets/blogs/part2.png)
 
 _Part 2 of 3: Getting Your Hands Dirty_
 

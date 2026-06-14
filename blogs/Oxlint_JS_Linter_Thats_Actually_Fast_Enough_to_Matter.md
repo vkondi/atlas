@@ -19,7 +19,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![oxlint_jslinter_blog_header](uploads/51962836fd0ff6e4acfbb359f7b3ef51/oxlint_jslinter_blog_header.png){width=900 height=507}
+![oxlint_jslinter_blog_header](../assets/blogs/oxlint_jslinter_blog_header.png)
 
 So here's the thing about my last Biome blog post, the comments section(on Reddit) turned into a mini war zone. Not the angry kind, thankfully. More like the curious kind. Everyone wanted to know about Oxlint and how it stacks up against Biome.
 

@@ -20,7 +20,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![bionme-blog-header](uploads/3fb4cff0b9995a8bd2bea4fa04e94dd4/bionme-blog-header.png){width=768 height=432}
+![bionme-blog-header](../assets/blogs/bionme-blog-header.png)
 
 If you've spent any time in the JavaScript ecosystem, you know the drill: install ESLint, configure it, install Prettier, configure it, make them play nice together, figure out why they're fighting, and then do it all over again every new project. It's exhausting.
 

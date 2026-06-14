@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![header](uploads/85d14e4a749282296a2bee17823754fc/header.png)
+![header](../assets/blogs/header.png)
 
 In today's connected world, we all want to access our favorite apps and websites without re-entering our password every two seconds. That's where **authentication tokens**, or "auth tokens," come in. Think of them like a digital VIP pass. When you log in with your username and password, the server checks your credentials and, if everything's good, hands you a special token. Instead of sending your password with every request, your app sends this token. The server then uses the token to confirm you're still you, and you can access all the cool stuff you're supposed to.
 
@@ -35,7 +35,7 @@ The basic process is pretty straightforward:
 5.  **Access:** From now on, whenever you need to access a protected resource, like your profile page or your shopping cart, the application includes the token in the request header.
 6.  **Token Validation:** The server receives the request, validates the token, and grants access if it's valid.
 
-![flow](uploads/dc4e9569d6230cdcea4d4b1ad06e2bf4/flow.png)
+![flow](../assets/blogs/flow.png)
 
 This system is great for **scalability** because the server doesn't need to remember who is logged in. This makes the server **stateless**, which is a huge plus for performance and building microservice architectures.
 

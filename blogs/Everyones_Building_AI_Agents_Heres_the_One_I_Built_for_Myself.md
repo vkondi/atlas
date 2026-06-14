@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![ChatGPT_Image_May_24__2026__12_12_37_AM](uploads/aa9af89f55a317d866632f55303c21f3/ChatGPT_Image_May_24__2026__12_12_37_AM.png){width=900 height=494}
+![ChatGPT_Image_May_24__2026__12_12_37_AM](../assets/blogs/ChatGPT_Image_May_24__2026__12_12_37_AM.png)
 
 These days, everyone seems to be building AI agents.
 

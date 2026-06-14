@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![CroppedGemini_Generated_Image_berwgoberwgoberw](uploads/2d90a64bec1db62ce6a24e70ef4d1905/CroppedGemini_Generated_Image_berwgoberwgoberw.png){width=900 height=506}
+![CroppedGemini_Generated_Image_berwgoberwgoberw](../assets/blogs/CroppedGemini_Generated_Image_berwgoberwgoberw.png)
 
 If you’re still starting projects with plain React…
 you’re already a bit behind.

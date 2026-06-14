@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![React_Interviews](uploads/b58bb17a5f773b5f5ba626248c1480ac/React_Interviews.png){width=900 height=600}
+![React_Interviews](../assets/blogs/React_Interviews.png)
 
 After interviewing many React developers, I’ve realized that interviews aren’t about catching people off-guard or seeing what they don’t know. What I really want is to understand how someone thinks, how they approach problems, and how they’ve grown through their experiences.
 

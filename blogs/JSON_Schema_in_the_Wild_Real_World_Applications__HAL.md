@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![part3](uploads/e17ed9e78f3140d51847f22442c0fc3a/part3.png)
+![part3](../assets/blogs/part3.png)
 
 _Part 3 of 3: Where Theory Meets Production_
 

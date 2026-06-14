@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![next-role_header](uploads/54508f20ddd20b42e762a3be8442889c/next-role_header.png){width=627 height=173}
+![next-role_header](../assets/blogs/next-role_header.png)
 
 Upload your resume. Get 4-6 strategic career paths. Pick one. Get a month-by-month roadmap to get there.
 
@@ -30,19 +30,19 @@ No job boards. No generic AI advice. No "let me tell you about a PM role." Just 
 
 ### Step 1: Upload Your Resume
 
-![NextRole Landing Page](uploads/b9d8e15407eff6542237250a8a511c5e/01-landing-page.png){width=220 height=476}
+![NextRole Landing Page](../assets/blogs/01-landing-page.png)
 
 Paste your resume text or upload a PDF. The AI extracts what matters: your role, experience, tech stack, strengths. Takes 10 seconds.
 
-![Resume Upload Interface](uploads/f851cabcf0b3383b5c96fa2ba3d56258/02-upload-resume.png){width=220 height=476}
+![Resume Upload Interface](../assets/blogs/02-upload-resume.png)
 
 See something wrong? Edit it. That's YOUR profile.
 
-![Extracted Career Profile](uploads/6b2277a4f47f08204ca1b4e2a826d22e/03-profile-extracted.png){width=220 height=476}
+![Extracted Career Profile](../assets/blogs/03-profile-extracted.png)
 
 ### Step 2: See Your Options (This Is The Money Part)
 
-![Career Paths Carousel](uploads/f4b807f3d201aeb0283467fa573d32a9/04-career-paths.png){width=220 height=476}
+![Career Paths Carousel](../assets/blogs/04-career-paths.png)
 
 Four to six career paths appear. Each one is ranked by:
 
@@ -55,7 +55,7 @@ Pick the one that excites you.
 
 ### Step 3: Get Your Roadmap (The Actual Plan)
 
-![Detailed Career Path Analysis](uploads/8881d6ee01e634f5bfcb9b28390a9a72/05-detailed-analysis.png){width=220 height=476}
+![Detailed Career Path Analysis](../assets/blogs/05-detailed-analysis.png)
 
 This is where it gets real. You get:
 

@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![github-logo-png-s8wb6yxlatsyp8s1](uploads/82905c71d8fb1cc591d780f78bb0d0cc/github-logo-png-s8wb6yxlatsyp8s1.png)
+![github-logo-png-s8wb6yxlatsyp8s1](../assets/blogs/github-logo-png-s8wb6yxlatsyp8s1.png)
 
 Hey there! If you’re managing a GitHub repo, you know it’s more than just a place to stash code—it’s your project’s home. I’ve put together a checklist of GitHub settings to keep your repo secure and organized, sticking to the exact options you’ll see in GitHub’s interface. For each section, I’ve added a few tips to make your life easier based on what I’ve learned messing around with repos. Let’s dive in!
 

@@ -19,7 +19,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![oxfmt-blog-header-image](uploads/395f064d4e38d7fe7bf68cbc9d19a753/oxfmt-blog-header-image.png){width=900 height=507}
+![oxfmt-blog-header-image](../assets/blogs/oxfmt-blog-header-image.png)
 
 Remember [Part 1](./Oxlint_JS_Linter_Thats_Actually_Fast_Enough_to_Matter.md) where we talked about Oxlint being stupidly fast? Well, buckle up because Oxfmt (the formatter) is even more ridiculous.
 

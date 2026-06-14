@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![Browser_Rendering_Pipeline_Actually_Works](uploads/5f43cb6abc24c775724192fbc206ae3f/Browser_Rendering_Pipeline_Actually_Works.png){width=900 height=507}
+![Browser_Rendering_Pipeline_Actually_Works](../assets/blogs/Browser_Rendering_Pipeline_Actually_Works.png)
 
 Most frontend developers spend their time inside frameworks like React, Vue, or Angular. But underneath every framework is the same system: the browser turning code into pixels on a screen.
 

@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![AI_CODING_HESDER](uploads/e78b0eb57110ce0ee449b4da38a982a4/AI_CODING_HESDER.png){width=768 height=432}
+![AI_CODING_HESDER](../assets/blogs/AI_CODING_HESDER.png)
 
 Let’s be real: AI coding tools like Copilot, Cursor, and others are _game-changers_. They autocomplete code, suggest fixes, and even write entire functions for you. For new developers, this is like having a senior dev sitting next to you, whispering answers in your ear. But here’s the big question: **Are these tools making us better coders, or are they turning us into button-pushers who don’t understand what’s happening under the hood?**
 
@@ -26,7 +26,7 @@ Let’s be real: AI coding tools like Copilot, Cursor, and others are _game-chan
 
 ## 🧩 **The Case for Concern: Are We Losing Our Edge?**
 
-![confused_developer](uploads/a221e50526419de509707e68fdeb4a47/confused_developer.jpg){width=800 height=600}
+![confused_developer](../assets/blogs/confused_developer.jpg)
 
 ### **1. The Logic Gap**
 

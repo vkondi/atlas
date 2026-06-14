@@ -18,7 +18,7 @@ publications:
 
 [⬅️ Back to Blogs](README.md)
 
-![my_first_npm_cli_tool](uploads/bab46387f3a939f7c78e3e5a1afb7412/my_first_npm_cli_tool.png){width=900 height=406}
+![my_first_npm_cli_tool](../assets/blogs/my_first_npm_cli_tool.png)
 
 Hey folks! 👋
 
