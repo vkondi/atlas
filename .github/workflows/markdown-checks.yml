@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2.0.2
         with:
           args: --verbose --no-progress --exclude "https://api\.visitorbadge\.io/.*" --exclude "uploads/.*" --exclude "https://dev\.to/vishwajeet/.*" --exclude "https://vishwajeetkondi\.vercel\.app/.*" --exclude "https://www\.npmjs\.com/package/.*" "**/*.md"
 
