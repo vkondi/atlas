@@ -82,7 +82,7 @@ _Example Badge Link:_
 
 ### D. Main Blogs README Registration & Categorization
 
-When adding a new blog, you must register its link in [blogs/README.md](file:///c:/MyDevWork/remote_repos/Documentation/atlas/blogs/README.md).
+When adding a new blog, you must register its link in [blogs/README.md](../blogs/README.md).
 
 - Categorize the link under the most appropriate H3 section based on the tags or content:
   - **AI & Intelligent Agents** (`### 🤖 AI & Intelligent Agents`): tags `ai`, `rag`, `agents`, `llm`, `copilot`, `artificial-intelligence`

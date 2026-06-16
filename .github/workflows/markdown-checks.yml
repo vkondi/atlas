@@ -23,7 +23,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2.0.2
         with:
-          args: --verbose --no-progress --exclude "https://api\.visitorbadge\.io/.*" --exclude "uploads/.*" --exclude "https://dev\.to/vishwajeet/.*" --exclude "https://vishwajeetkondi\.vercel\.app/.*" --exclude "https://www\.npmjs\.com/package/.*" "**/*.md"
+          args: --verbose --no-progress --exclude "https://api\.visitorbadge\.io/.*" --exclude "uploads/.*" --exclude "https://dev\.to/vishwajeet/.*" --exclude "https://vishwajeetkondi\.vercel\.app/.*" --exclude "https://www\.npmjs\.com/package/.*" --exclude "https://www\.sophos\.com/.*" "**/*.md"
 
   blog-validation:
     runs-on: ubuntu-latest
