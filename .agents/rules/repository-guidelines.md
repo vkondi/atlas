@@ -69,7 +69,7 @@ _Example Badge Link:_
 
 ### D. Registration & Categorization in Blogs README
 
-You must register and link any new blog post inside the main blogs README ([blogs/README.md](file:///c:/MyDevWork/remote_repos/Documentation/atlas/blogs/README.md)) in alphabetical order under the correct category section:
+You must register and link any new blog post inside the main blogs README ([blogs/README.md](../../blogs/README.md)) in alphabetical order under the correct category section:
 
 - **AI & Intelligent Agents** (`### 🤖 AI & Intelligent Agents`): for `ai`, `rag`, `agents`, `llm`, `copilot`, `artificial-intelligence`
 - **Frontend Development & Frameworks** (`### 🌐 Frontend Development & Frameworks`): for `react`, `frontend`, `js`, `ts`, `css`, `html`, `webpack`, `vite`, `next`, `eslint`, `prettier`, `linter`, `formatter`, `useeffect`

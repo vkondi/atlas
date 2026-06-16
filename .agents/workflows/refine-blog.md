@@ -23,5 +23,5 @@ This workflow automatically ensures a blog post is formatted properly and regist
 3. **Report Changes**:
    - Inspect the output of the command.
    - Report to the user what elements were added or fixed (e.g., frontmatter metadata, navigation back link, visitor hits badge).
-   - Report which category section in [blogs/README.md](file:///c:/MyDevWork/remote_repos/Documentation/atlas/blogs/README.md) the post was registered under.
+   - Report which category section in [blogs/README.md](../../blogs/README.md) the post was registered under.
    - If the YAML frontmatter was newly generated, show the generated title and tags, and advise the user to review them for any manual adjustments.
