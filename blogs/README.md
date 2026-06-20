@@ -83,4 +83,17 @@ Real-world experiences on shipping software and structured planning for career g
 
 ---
 
+## 📝 Future Blog Post Backlog (TODO)
+
+Below are topics identified during repository architecture reviews as high-priority ideas for upcoming articles:
+
+- **Securing Distributed Backends**: Implementing SSO and SAML in complex enterprise ecosystems.
+- **Architecting Monorepos**: Scaling local builds and CI validation using Turborepo and workspace filters.
+- **Microfrontends in Practice**: Real-world lessons using Module Federation and handling style clashes.
+- **Building on the Edge**: Running high-performance Next.js servers and Edge Functions with Vercel.
+- **Modern Package Engineering**: Designing custom NPM libraries with robust ESM/CJS exports and automated releases.
+- **Autonomous Agents Locally**: Moving beyond chat prompts to run self-hosted agents using OpenClaw.
+
+---
+
 ![Hits](https://api.visitorbadge.io/api/visitors?path=vkondi.atlas.blogs/README.md)
