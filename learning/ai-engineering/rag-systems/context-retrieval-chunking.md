@@ -21,7 +21,7 @@ Selecting the right chunking strategy depends on document structure and query gr
 - **Fixed-Size Chunking**: Splits text at a strict character or token count (e.g., exactly 1000 characters).
   - _Pros_: Simple to implement and computationally fast.
   - _Cons_: Frequently cuts sentences or code blocks in half, severing semantic context.
-- **Recursive Character Chunking**: Iteratively splits text using a hierarchical list of delimiters (typically `\n\n` for paragraphs, `\n` for lines, ` ` for words, and `""` for characters). It attempts to keep paragraphs and sentences intact, only splitting when a block exceeds the target chunk size.
+- **Recursive Character Chunking**: Iteratively splits text using a hierarchical list of delimiters (typically `\n\n` for paragraphs, `\n` for lines, `" "` for words, and `""` for characters). It attempts to keep paragraphs and sentences intact, only splitting when a block exceeds the target chunk size.
 - **Document-Structure Chunking**: Parses files based on native layout boundaries (e.g., splitting by Markdown headers `H1`/`H2`, HTML tags, or JSON array structures). Best for codebases and technical documentation.
 - **Semantic Chunking**: Analyzes consecutive sentences, calculates embedding vectors for each, measures the cosine distance between neighboring vectors, and triggers a split point only when semantic variance exceeds a dynamic percentile threshold (e.g., 95th percentile). This guarantees that each chunk contains a single coherent topic.
 
