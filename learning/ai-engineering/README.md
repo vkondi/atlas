@@ -24,6 +24,7 @@ A curated collection of concepts, configurations, and playbooks governing ai eng
 - [Building Local RAG Systems](./rag-systems/rag-architecture.md)
 - [Embeddings & Vector Databases](./rag-systems/embeddings-and-vector-databases.md)
 - [Chunking & Context Retrieval](./rag-systems/context-retrieval-chunking.md)
+- [Knowledge Graph Layer](./rag-systems/knowledge-graph-layer.md)
 
 ### 📁 Agentic-ai
 
