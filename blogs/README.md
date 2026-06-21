@@ -37,6 +37,7 @@ Articles on utilizing local AI models, building personal RAG pipelines, and inte
 - [Ollama & OpenWebUI: Your Local AI Setup Guide](./Ollama__OpenWebUI_Your_Local_AI_Setup_Guide.md)
 - [So I Built This AI Thing That Doesnt Suck](./So_I_Built_This_AI_Thing_That_Doesnt_Suck.md)
 - [What I Learned Building a Local RAG Agent](./What_I_Learned_Building_a_Local_RAG_Agent.md)
+- [Knowledge Graphs: The Missing Piece in Most RAG Systems](./Knowledge_Graphs_The_Missing_Piece_in_Most_RAG_Systems.md)
 
 ---
 
