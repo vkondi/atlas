@@ -38,6 +38,7 @@ Articles on utilizing local AI models, building personal RAG pipelines, and inte
 - [So I Built This AI Thing That Doesnt Suck](./So_I_Built_This_AI_Thing_That_Doesnt_Suck.md)
 - [What I Learned Building a Local RAG Agent](./What_I_Learned_Building_a_Local_RAG_Agent.md)
 - [Knowledge Graphs: The Missing Piece in Most RAG Systems](./Knowledge_Graphs_The_Missing_Piece_in_Most_RAG_Systems.md)
+- [CAG: The Simpler Way to Ground Your LLM](./CAG_The_Simpler_Way_to_Ground_Your_LLM.md)
 
 ---
 
