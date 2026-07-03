@@ -37,10 +37,6 @@ Articles on utilizing local AI models, building personal RAG pipelines, and inte
 - [Everyone's Building AI Agents: Here's the One I Built for Myself](./Everyones_Building_AI_Agents_Heres_the_One_I_Built_for_Myself.md)
 - [Knowledge Graphs: The Missing Piece in Most RAG Systems](./Knowledge_Graphs_The_Missing_Piece_in_Most_RAG_Systems.md)
 - [Ollama & OpenWebUI: Your Local AI Setup Guide](./Ollama__OpenWebUI_Your_Local_AI_Setup_Guide.md)
-- [Part 1](./ai-fundamentals/part_1.md)
-- [Part 3 Section 1](./ai-fundamentals/part_3_section_1.md)
-- [Part 3 Section 2](./ai-fundamentals/part_3_section_2.md)
-- [Part 4](./ai-fundamentals/part_4.md)
 - [So I Built This AI Thing That Doesnt Suck](./So_I_Built_This_AI_Thing_That_Doesnt_Suck.md)
 - [What I Learned Building a Local RAG Agent](./What_I_Learned_Building_a_Local_RAG_Agent.md)
 
@@ -84,7 +80,6 @@ Exploring how the browser processes, renders, and displays web pages.
 Real-world experiences on shipping software and structured planning for career growth.
 
 - [I Published My First npm CLI Tool](./I_Published_My_First_npm_CLI_Tool.md)
-- [Part 2](./ai-fundamentals/part_2.md)
 - [Your Job Isnt Gone Relax](./Your_Job_Isnt_Gone_Relax.md)
 - [Your Next Role Planned With Clarity](./Your_Next_Role_Planned_With_Clarity.md)
 

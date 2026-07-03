@@ -11,6 +11,10 @@ function isBlogFile(filePath) {
   if (relative.startsWith('..') || path.isAbsolute(relative)) {
     return false;
   }
+  const parts = relative.split(/[\\/]/);
+  if (parts.some((part) => part.startsWith('_draft'))) {
+    return false;
+  }
   const basename = path.basename(filePath).toLowerCase();
   return filePath.endsWith('.md') && basename !== 'readme.md';
 }
@@ -19,6 +23,9 @@ function getMdFiles(dir, files = []) {
   const list = fs.readdirSync(dir);
   for (const file of list) {
     if (file === 'node_modules' || file === '.git' || file === '.husky') {
+      continue;
+    }
+    if (file.startsWith('_draft')) {
       continue;
     }
     const filePath = path.join(dir, file);
