@@ -1,9 +1,9 @@
 ---
-title: 'Part 2'
+title: 'AI Fundamentals — Part 2: Why AI Gets Things Right... and Wrong'
 tags:
-  - career
-  - development
-  - industry-trends
+  - ai
+  - fundamentals
+  - tutorial
 created: 2026-07-03
 status: published
 ---
@@ -65,6 +65,8 @@ It doesn't automatically learn new information every day.
 **💡 Developer's Takeaway**
 
 An LLM only knows what it learned during training. It doesn't browse the internet every time you ask a question.
+
+_(Note: While consumer chat applications like Google Gemini or ChatGPT can browse the web, they do so by using an external application wrapper that runs a search engine query behind the scenes, retrieves the results, and feeds that fresh information into the model's prompt. The core LLM itself remains static.)_
 
 ---
 

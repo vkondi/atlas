@@ -1,9 +1,9 @@
 ---
-title: 'Part 4'
+title: 'AI Fundamentals — Part 4: Building Real AI Applications'
 tags:
   - ai
-  - personal-project
-  - nextjs
+  - fundamentals
+  - tutorial
 created: 2026-07-03
 status: published
 ---

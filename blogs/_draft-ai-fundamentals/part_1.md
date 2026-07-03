@@ -1,7 +1,9 @@
 ---
-title: 'Part 1'
+title: 'AI Fundamentals — Part 1: From Prompt to Response'
 tags:
-  - blog
+  - ai
+  - fundamentals
+  - tutorial
 created: 2026-07-03
 status: published
 ---
@@ -211,11 +213,9 @@ At a beginner level, you don't need to understand the mathematics behind it.
 
 Instead, remember this:
 
-A Transformer is designed to process many tokens together instead of reading them one by one like a person reading a sentence aloud.
+A Transformer is designed to process all tokens in a prompt in parallel, rather than reading them sequentially one-by-one (as older recurrent architectures like RNNs or LSTMs did).
 
-That allows it to understand relationships between different parts of the prompt much more effectively.
-
-This architecture is one of the biggest reasons modern AI feels dramatically more capable than earlier generations of language models.
+This parallel processing allows the model to analyze the relationships between all parts of the prompt simultaneously and handle significantly larger context windows. It is the primary reason modern AI models are trained on massive datasets and feel dramatically more capable.
 
 One of the key ideas inside the Transformer is **Attention**.
 
