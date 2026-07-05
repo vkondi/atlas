@@ -1,5 +1,5 @@
 ---
-title: 'AI Fundamentals — Part 4: Building Real AI Applications'
+title: 'AI Fundamentals - Part 4: Building Real AI Applications'
 tags:
   - ai
   - fundamentals
@@ -12,7 +12,7 @@ status: draft
 
 ![AI_Fundamentals__Part_4_Building_Real_AI_Applications](../../assets/blogs/AI_Fundamentals__Part_4_Building_Real_AI_Applications.png)
 
-# AI Fundamentals — Part 4: Building Real AI Applications
+# AI Fundamentals - Part 4: Building Real AI Applications
 
 In the previous articles, we learned how an LLM generates text and how techniques like RAG and CAG help it answer questions using external knowledge. At this point, our AI-powered Travel Planner can answer questions like _"I'm visiting Japan for 7 days. Suggest an itinerary."_ or _"Recommend vegetarian ramen near Tokyo Station."_ That's useful, but it's still just a chatbot.
 
@@ -43,7 +43,7 @@ Think of the LLM as a decision-maker, not an executor. Your application remains 
 If a user has interacted with our Travel Planner before, we want to recall their preferences: that they prefer vegetarian food, travel by train, choose window seats, and dislike morning flights. When they ask to _"Plan my Japan trip,"_ the planner can automatically incorporate these choices. This is where **memory** comes in. AI applications generally utilize two kinds of memory:
 
 - **Short-Term Memory:** This is the message history of the current active conversation. The model can connect messages because they remain inside the active context window. Once the conversation ends or the context window is cleared, this information is lost.
-- **Long-Term (Persistent) Memory:** This stores information across conversations (e.g., favorite airline, dietary restrictions, home airport). Unlike short-term memory, this information is stored outside the model—typically in a database—and injected back into future prompts when relevant.
+- **Long-Term (Persistent) Memory:** This stores information across conversations (e.g., favorite airline, dietary restrictions, home airport). Unlike short-term memory, this information is stored outside the model-typically in a database-and injected back into future prompts when relevant.
 
 **💡 Developer's Takeaway**
 
@@ -78,7 +78,7 @@ The combination of **reasoning**, **tool use**, **memory**, and **external knowl
 
 **💡 Developer's Takeaway**
 
-Most production AI agents are wrapper orchestration frameworks (like LangChain, AutoGen, or custom state machines) designed to coordinate model decisions and tool outputs—they are not magical autonomous codebases.
+Most production AI agents are wrapper orchestration frameworks (like LangChain, AutoGen, or custom state machines) designed to coordinate model decisions and tool outputs-they are not magical autonomous codebases.
 
 ---
 
@@ -118,7 +118,7 @@ In our Travel Planner, a user can upload a picture of a ticket and ask: _"Is thi
 
 # Guardrails: Keeping AI Safe and Reliable
 
-Giving an AI access to tools introduces risk. If a user asks to _"Cancel all my hotel reservations,"_ the application shouldn't execute it immediately. Production AI systems implement **guardrails**—application-level validation layers that constrain what the AI can do.
+Giving an AI access to tools introduces risk. If a user asks to _"Cancel all my hotel reservations,"_ the application shouldn't execute it immediately. Production AI systems implement **guardrails**-application-level validation layers that constrain what the AI can do.
 
 Guardrails work by:
 
@@ -180,7 +180,7 @@ Over this four-part series, we've covered the core pillars of building modern AI
 
 If you've made it this far, you now have a practical understanding of the terminology you'll encounter in AI documentation, conference talks, technical blogs, and day-to-day development.
 
-More importantly, you should now have a mental model for how modern AI applications are built—not just how language models work in isolation.
+More importantly, you should now have a mental model for how modern AI applications are built-not just how language models work in isolation.
 
 ---
 

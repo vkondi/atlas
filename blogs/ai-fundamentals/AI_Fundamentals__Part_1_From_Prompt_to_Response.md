@@ -1,5 +1,5 @@
 ---
-title: 'AI Fundamentals — Part 1: From Prompt to Response'
+title: 'AI Fundamentals - Part 1: From Prompt to Response'
 tags:
   - ai
   - fundamentals
@@ -12,7 +12,7 @@ status: published
 
 ![AI_Fundamentals__Part_1_From_Prompt_to_Response](../../assets/blogs/AI_Fundamentals__Part_1_From_Prompt_to_Response.png)
 
-# AI Fundamentals — Part 1: From Prompt to Response
+# AI Fundamentals - Part 1: From Prompt to Response
 
 AI is becoming a regular part of software development. Whether you're building chatbots, code assistants, search experiences, or internal tools, you'll come across terms like _tokens_, _context window_, _attention_, and _temperature_. While you don't need to understand the underlying mathematics to build AI-powered applications, understanding these fundamentals will help you make better design decisions, debug unexpected behavior, and discuss AI topics with confidence. In this series, we'll build that foundation one concept at a time.
 
@@ -56,11 +56,11 @@ Let's start from the very beginning.
 
 # What Is an LLM?
 
-An **LLM (Large Language Model)** is a machine learning model trained on enormous amounts of text to recognize patterns in language. Despite the impressive conversations they can have, LLMs aren't databases or search engines—they don't look up answers when you ask a question. Instead, they generate text by predicting what should come next based on everything they've seen so far. That single idea is the foundation for understanding modern AI.
+An **LLM (Large Language Model)** is a machine learning model trained on enormous amounts of text to recognize patterns in language. Despite the impressive conversations they can have, LLMs aren't databases or search engines-they don't look up answers when you ask a question. Instead, they generate text by predicting what should come next based on everything they've seen so far. That single idea is the foundation for understanding modern AI.
 
 > **Mental Model**
 >
-> An LLM is a very sophisticated **next-word predictor**. Technically, it predicts the next **token**, not the next word—but we'll get to that shortly.
+> An LLM is a very sophisticated **next-word predictor**. Technically, it predicts the next **token**, not the next word-but we'll get to that shortly.
 
 **💡 Developer's Takeaway**
 
@@ -120,7 +120,7 @@ Tokenization is one reason two models can behave differently even when given the
 
 # Context Window: The Model's Working Memory
 
-Once the prompt is tokenized, those tokens are placed inside the model's **context window**. The context window is the total amount of information the model can consider while generating its response—essentially its active working memory for the current conversation.
+Once the prompt is tokenized, those tokens are placed inside the model's **context window**. The context window is the total amount of information the model can consider while generating its response-essentially its active working memory for the current conversation.
 
 For our travel planner, the context window might include:
 
@@ -129,11 +129,11 @@ For our travel planner, the context window might include:
 - System instructions
 - Uploaded documents or external data
 
-Everything inside the context window is available to the model; everything outside it effectively does not exist. This explains why long conversations sometimes cause the AI to forget details you mentioned earlier—those earlier tokens have simply been pushed out of the context window to make room for new ones.
+Everything inside the context window is available to the model; everything outside it effectively does not exist. This explains why long conversations sometimes cause the AI to forget details you mentioned earlier-those earlier tokens have simply been pushed out of the context window to make room for new ones.
 
 **💡 Developer's Takeaway**
 
-Many "memory" issues are actually context window limitations. Managing context efficiently—pruning old history or summarizing previous turns—is one of the most important aspects of building AI applications.
+Many "memory" issues are actually context window limitations. Managing context efficiently-pruning old history or summarizing previous turns-is one of the most important aspects of building AI applications.
 
 ---
 

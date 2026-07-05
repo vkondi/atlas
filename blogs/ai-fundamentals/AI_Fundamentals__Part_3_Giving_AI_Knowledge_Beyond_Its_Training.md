@@ -1,5 +1,5 @@
 ---
-title: 'AI Fundamentals — Part 3: Giving AI Knowledge Beyond Its Training'
+title: 'AI Fundamentals - Part 3: Giving AI Knowledge Beyond Its Training'
 tags:
   - ai
   - fundamentals
@@ -12,9 +12,9 @@ status: published
 
 ![AI_Fundamentals__Part_3_Giving_AI_Knowledge_Beyond_Its_Training](../../assets/blogs/AI_Fundamentals__Part_3_Giving_AI_Knowledge_Beyond_Its_Training.png)
 
-# AI Fundamentals — Part 3: Giving AI Knowledge Beyond Its Training
+# AI Fundamentals - Part 3: Giving AI Knowledge Beyond Its Training
 
-In Part 2, we learned why AI sometimes hallucinates. One of the biggest reasons is that an LLM can only answer based on what it learned during training and the information available in its context window. We also introduced **grounding**—providing the model with reliable information at runtime instead of expecting it to know everything.
+In Part 2, we learned why AI sometimes hallucinates. One of the biggest reasons is that an LLM can only answer based on what it learned during training and the information available in its context window. We also introduced **grounding**-providing the model with reliable information at runtime instead of expecting it to know everything.
 
 But that raises an important question: **Where does that information come from?** Modern AI applications don't simply dump an entire database or a thousand-page PDF into the prompt. Instead, they first identify the _most relevant_ pieces of information and only send those to the model. In this article, we'll learn how that works.
 
@@ -34,7 +34,7 @@ Together, these documents contain hundreds of pages. Now the user asks:
 
 > _I'm staying near Tokyo Station. Which ramen restaurant from our travel guide is within walking distance and is known for vegetarian options?_
 
-Somewhere in those hundreds of pages is the answer. The challenge is no longer generating text—it's **finding the right information first.**
+Somewhere in those hundreds of pages is the answer. The challenge is no longer generating text-it's **finding the right information first.**
 
 ---
 
@@ -86,7 +86,7 @@ But computers don't naturally understand meaning; they understand numbers. How c
 
 # Embeddings: Turning Meaning into Numbers
 
-An **embedding** is a numerical representation of text that captures its meaning. Think of it as a fingerprint—not of the exact words, but of what those words represent.
+An **embedding** is a numerical representation of text that captures its meaning. Think of it as a fingerprint-not of the exact words, but of what those words represent.
 
 For example, these three phrases all have different wording but express similar ideas, so their embeddings end up being very similar:
 

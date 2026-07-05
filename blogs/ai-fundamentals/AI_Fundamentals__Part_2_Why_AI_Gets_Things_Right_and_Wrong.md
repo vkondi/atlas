@@ -1,5 +1,5 @@
 ---
-title: 'AI Fundamentals — Part 2: Why AI Gets Things Right... and Wrong'
+title: 'AI Fundamentals - Part 2: Why AI Gets Things Right... and Wrong'
 tags:
   - ai
   - fundamentals
@@ -12,7 +12,7 @@ status: published
 
 ![AI_Fundamentals__Part_2_Why_AI_Gets_Things_Right_and_Wrong](../../assets/blogs/AI_Fundamentals__Part_2_Why_AI_Gets_Things_Right_and_Wrong.png)
 
-# AI Fundamentals — Part 2: Why AI Gets Things Right... and Wrong
+# AI Fundamentals - Part 2: Why AI Gets Things Right... and Wrong
 
 In Part 1, we learned how an LLM turns your prompt into a response. It all comes down to predicting one token at a time using the information available in its context window. But that raises another question: if AI is capable of writing code, planning trips, and explaining complex topics, why does it sometimes confidently give completely wrong answers?
 
@@ -36,7 +36,7 @@ The response sounds convincing and highly professional. The only problem? The re
 
 # Pretraining: Where the Model Learns Its Knowledge
 
-Before an LLM can answer questions, it goes through a phase called **pretraining**. During pretraining, the model learns patterns from an enormous collection of books, websites, articles, and other publicly available text. It isn't memorizing every sentence; instead, it learns the relationships between words, ideas, facts, and writing styles—similar to a student spending years reading library books before taking an exam. Once this learning phase is complete, the model's knowledge is static and fixed. It does not automatically learn new information every day.
+Before an LLM can answer questions, it goes through a phase called **pretraining**. During pretraining, the model learns patterns from an enormous collection of books, websites, articles, and other publicly available text. It isn't memorizing every sentence; instead, it learns the relationships between words, ideas, facts, and writing styles-similar to a student spending years reading library books before taking an exam. Once this learning phase is complete, the model's knowledge is static and fixed. It does not automatically learn new information every day.
 
 **💡 Developer's Takeaway**
 
@@ -48,7 +48,7 @@ _(Note: While consumer chat applications like Google Gemini or ChatGPT can brows
 
 # Knowledge Cutoff: Why Models Don't Know Everything
 
-Imagine a new observation deck opens in Tokyo tomorrow. If your model was trained last month, it won't know the place exists. This is called the **knowledge cutoff**—the point in time up to which the model has learned information. Anything that happened after that date is entirely missing. This is why questions like "Who won yesterday's match?", "What's today's weather?", or "Has this restaurant recently closed?" cannot be answered accurately by the model alone.
+Imagine a new observation deck opens in Tokyo tomorrow. If your model was trained last month, it won't know the place exists. This is called the **knowledge cutoff**-the point in time up to which the model has learned information. Anything that happened after that date is entirely missing. This is why questions like "Who won yesterday's match?", "What's today's weather?", or "Has this restaurant recently closed?" cannot be answered accurately by the model alone.
 
 **💡 Developer's Takeaway**
 
@@ -58,9 +58,9 @@ If your application depends on current or frequently changing information, you'l
 
 # Hallucinations: When AI Makes Things Up
 
-Instead of saying "I don't know," the model confidently invented **Tokyo Dragon Ramen**. This is known as a **hallucination**—when the model generates information that sounds believable but is incorrect, misleading, or entirely fabricated.
+Instead of saying "I don't know," the model confidently invented **Tokyo Dragon Ramen**. This is known as a **hallucination**-when the model generates information that sounds believable but is incorrect, misleading, or entirely fabricated.
 
-Hallucinations don't happen because the model is trying to deceive you. Remember from Part 1: the model's job is simply to predict the next token. Sometimes, the most statistically likely sequence of tokens forms a statement that simply isn't true. That's why hallucinations sound so convincing—the writing is fluent and the confidence is high, but the facts are completely wrong.
+Hallucinations don't happen because the model is trying to deceive you. Remember from Part 1: the model's job is simply to predict the next token. Sometimes, the most statistically likely sequence of tokens forms a statement that simply isn't true. That's why hallucinations sound so convincing-the writing is fluent and the confidence is high, but the facts are completely wrong.
 
 **💡 Developer's Takeaway**
 
@@ -97,7 +97,7 @@ Not every poor response is caused by the model itself; sometimes the prompt simp
 - **Prompt A:** _Recommend places to visit._
 - **Prompt B:** _I'm visiting Tokyo for 7 days in October with my family. We enjoy history, local food, and walking tours. Recommend places to visit and explain why each is worth visiting._
 
-The second prompt gives the model far more useful context to tailor its response. This is the essence of **prompt engineering**—the practice of writing prompts that help the model produce better results. It is less about finding "magic words" and more about providing enough context for the model to understand your exact intent.
+The second prompt gives the model far more useful context to tailor its response. This is the essence of **prompt engineering**-the practice of writing prompts that help the model produce better results. It is less about finding "magic words" and more about providing enough context for the model to understand your exact intent.
 
 **💡 Developer's Takeaway**
 

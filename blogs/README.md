@@ -32,6 +32,10 @@ Exploring the next generation of blazingly fast JavaScript/TypeScript tools writ
 Articles on utilizing local AI models, building personal RAG pipelines, and integrating AI into the developer workflow.
 
 - [AI Coding Assistants: Boon or Bane?](./AI_Coding_Assistants_Boon_or_Bane.md)
+- [AI Fundamentals - Part 1: From Prompt to Response](./ai-fundamentals/AI_Fundamentals__Part_1_From_Prompt_to_Response.md)
+- [AI Fundamentals - Part 2: Why AI Gets Things Right... and Wrong](./ai-fundamentals/AI_Fundamentals__Part_2_Why_AI_Gets_Things_Right_and_Wrong.md)
+- [AI Fundamentals - Part 3: Giving AI Knowledge Beyond Its Training](./ai-fundamentals/AI_Fundamentals__Part_3_Giving_AI_Knowledge_Beyond_Its_Training.md)
+- [AI Fundamentals - Part 4: Building Real AI Applications](./ai-fundamentals/AI_Fundamentals__Part_4_Building_Real_AI_Applications.md)
 - [CAG: The Simpler Way to Ground Your LLM](./CAG_The_Simpler_Way_to_Ground_Your_LLM.md)
 - [Copilot Forgets Everything: Make It Stop](./Copilot_Forgets_Everything_Make_It_Stop.md)
 - [Everyone's Building AI Agents: Here's the One I Built for Myself](./Everyones_Building_AI_Agents_Heres_the_One_I_Built_for_Myself.md)
