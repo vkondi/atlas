@@ -6,6 +6,13 @@ tags:
   - tutorial
 created: 2026-07-03
 status: published
+publications:
+  - platform: coderlegion
+    url: https://coderlegion.com/21935/ai-fundamentals-part-1-from-prompt-to-response
+    published_at: 2026-07-05
+  - platform: devto
+    url: https://dev.to/vishdevwork/ai-fundamentals-part-1-from-prompt-to-response-4lkm
+    published_at: 2026-07-05
 ---
 
 [⬅️ Back to Blogs](../README.md)
@@ -233,7 +240,7 @@ In this article, we covered the journey from prompt to response, detailing:
 - The parallel processing of Transformers and the focus of Attention.
 - Parameters and Temperature control.
 
-In **Part 2**, we'll explore why models can confidently generate incorrect answers, introducing **pretraining**, **knowledge cutoffs**, **hallucinations**, and how **grounding** and **prompt engineering** help resolve them.
+In **[Part 2](./AI_Fundamentals__Part_2_Why_AI_Gets_Things_Right_and_Wrong.md)**, we'll explore why models can confidently generate incorrect answers, introducing **pretraining**, **knowledge cutoffs**, **hallucinations**, and how **grounding** and **prompt engineering** help resolve them.
 
 ---
 

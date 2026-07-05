@@ -6,6 +6,13 @@ tags:
   - tutorial
 created: 2026-07-03
 status: published
+publications:
+  - platform: coderlegion
+    url: https://coderlegion.com/21936/ai-fundamentals-part-2-why-ai-gets-things-right-and-wrong
+    published_at: 2026-07-05
+  - platform: devto
+    url: https://dev.to/vishdevwork/ai-fundamentals-part-2-why-ai-gets-things-right-and-wrong-opj
+    published_at: 2026-07-05
 ---
 
 [⬅️ Back to Blogs](../README.md)
@@ -14,7 +21,7 @@ status: published
 
 # AI Fundamentals - Part 2: Why AI Gets Things Right... and Wrong
 
-In Part 1, we learned how an LLM turns your prompt into a response. It all comes down to predicting one token at a time using the information available in its context window. But that raises another question: if AI is capable of writing code, planning trips, and explaining complex topics, why does it sometimes confidently give completely wrong answers?
+In [Part 1](./AI_Fundamentals__Part_1_From_Prompt_to_Response.md), we learned how an LLM turns your prompt into a response. It all comes down to predicting one token at a time using the information available in its context window. But that raises another question: if AI is capable of writing code, planning trips, and explaining complex topics, why does it sometimes confidently give completely wrong answers?
 
 To answer that, let's continue building our AI-powered Travel Planner.
 
@@ -168,7 +175,7 @@ In this article, we covered why AI behaves the way it does, detailing:
 - Prompt engineering, system prompts, and few-shot examples.
 - In-context learning.
 
-In **Part 3**, we'll explore where this grounding information comes from, detailing embeddings, semantic search, vector databases, chunking, and how techniques like **RAG** and **CAG** help AI retrieve information.
+In **[Part 3](./AI_Fundamentals__Part_3_Giving_AI_Knowledge_Beyond_Its_Training.md)**, we'll explore where this grounding information comes from, detailing embeddings, semantic search, vector databases, chunking, and how techniques like **RAG** and **CAG** help AI retrieve information.
 
 ---
 

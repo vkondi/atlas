@@ -14,7 +14,7 @@ status: published
 
 # AI Fundamentals - Part 3: Giving AI Knowledge Beyond Its Training
 
-In Part 2, we learned why AI sometimes hallucinates. One of the biggest reasons is that an LLM can only answer based on what it learned during training and the information available in its context window. We also introduced **grounding**-providing the model with reliable information at runtime instead of expecting it to know everything.
+In [Part 2](./AI_Fundamentals__Part_2_Why_AI_Gets_Things_Right_and_Wrong.md), we learned why AI sometimes hallucinates. One of the biggest reasons is that an LLM can only answer based on what it learned during training and the information available in its context window. We also introduced **grounding**-providing the model with reliable information at runtime instead of expecting it to know everything.
 
 But that raises an important question: **Where does that information come from?** Modern AI applications don't simply dump an entire database or a thousand-page PDF into the prompt. Instead, they first identify the _most relevant_ pieces of information and only send those to the model. In this article, we'll learn how that works.
 
@@ -304,7 +304,7 @@ In this article, we explored how to give AI knowledge beyond its training. We co
 - Chunking, Vector Databases, and Embedding Dimensions
 - RAG (Retrieval-Augmented Generation) and CAG (Cache-Augmented Generation)
 
-In **Part 4**, we will answer the next logical question: **How do we connect our model to the outside world so it can execute tasks, use external APIs, and remember users over time?** We will explore tool calling, memory, Model Context Protocol (MCP), and AI agents.
+In **[Part 4](./AI_Fundamentals__Part_4_Building_Real_AI_Applications.md)**, we will answer the next logical question: **How do we connect our model to the outside world so it can execute tasks, use external APIs, and remember users over time?** We will explore tool calling, memory, Model Context Protocol (MCP), and AI agents.
 
 ---
 
